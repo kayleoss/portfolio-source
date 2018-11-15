@@ -1,0 +1,254 @@
+body {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size:16px;
+  overflow-x:hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+.wow {
+  visibility: hidden;
+}
+.main-h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-shadow: 1px 3px 5px black;
+}
+.title-h1 {
+  color: #916BB7;
+  font-weight: 500;
+}
+.label-h1 {
+  font-weight: 400;
+  color: rgb(113, 76, 150);
+  font-size: 1.8em;
+}
+.main-p {
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.description-p {
+  font-size:1.5em;
+  color: rgb(151, 129, 173);
+  font-weight: 300;
+}
+.description-h {
+  color: rgb(164, 164, 165);
+  font-size: 1.7em;
+  text-transform: uppcase;
+  font-weight: 300;
+}
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+.text-center {
+  text-align:center;
+}
+.padded {
+  padding: 3%;
+}
+.p-t {
+  padding-top: 5%;
+}
+.p-b {
+  padding-bottom: 5%;
+}
+.m-t {
+  margin-top: 5%;
+}
+.m-s-t {
+  margin-top: 3%;
+}
+.m-b {
+  margin-bottom: 5%;
+}
+.overlay {
+  opacity: 0;
+  position:absolute;
+  padding: 3%;
+  width:95%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.856);
+  color: white;
+  font-size: 1.2em;
+  font-weight: 300;
+  transition: opacity 0.8s ease-out;
+}
+.overlay p {
+  pointer-events: none;
+}
+.overlay-h1 {
+  color:rgb(211, 163, 253);
+  font-size: 1.5em;
+  pointer-events: none;
+}
+.project-img {
+  width:100%;
+  box-shadow: 1px 1px 8px grey;
+}
+
+/* buttons */
+.vector-button {
+  display: inline-block;
+  width: 80%;
+  transition: width 1s ease;
+}
+.vector-button:hover {
+  width: 85%;
+}
+.vector-button-2 {
+  display: inline-block;
+  width: 20%;
+  transition: width 1s ease;
+}
+.vector-button-2:hover {
+  width: 23%;
+  cursor:pointer;
+}
+.project-button {
+  background: rgb(197, 162, 231);
+  font-size: 1.3em;
+  color: white;
+  display:inline;
+  border: 0.5px solid black;
+  padding: 0.5% 3%;
+  font-weight: 300;
+  transition: box-shadow 0.7s ease;
+}
+.project-button:hover {
+  cursor:pointer;
+  box-shadow: 2px 4px 0 rgb(70, 42, 99);
+}
+
+/* sections */
+#header {
+  width:100%;
+  height: 90vh;
+  background: url('./assets/hero-img-small.png');
+  background-size:cover;
+  background-attachment: fixed;
+  box-shadow: 0px 0px 25px #c7c7c7;
+}
+#what-i-do {
+  width:100%;
+  overflow-x:hidden;
+}
+#projects {
+  width:100%;
+  background: rgb(250, 247, 253);
+  background: url('./assets/projects.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#footer {
+  background: url('./assets/footer.png');
+  background-size:cover;
+  background-attachment: fixed;
+}
+#footer a {
+  color: rgb(184, 147, 201);
+}
+#footer a i {
+  color: rgba(255, 255, 255, 0.815);
+}
+#copyright {
+  padding: 1% 3%;
+  background: rgb(28, 20, 36);
+  text-align:right;
+}
+#copyright p {
+  margin:0 !important;
+  color: rgba(255, 255, 255, 0.479);
+}
+#cta-form input, textarea {
+  margin: 3% auto;
+  background: rgba(184, 147, 201, 0.658);
+  border:1px solid transparent;
+  border-radius: 5px;
+  width:100%;
+}
+#cta-form ::placeholder {
+  color: rgba(253, 239, 253, 0.719);
+  padding: 0 3%;
+}
+@media (max-width: 1200px) {
+  #header{
+    height: auto;
+    background: url('./assets/media1200.png');
+    background-size:cover;
+    background-attachment: initial;
+    padding-bottom :5%;
+  }
+  #footer a {
+    font-size: 0.7em !important;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 1100px) {
+  .overlay p {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 700px) {
+  #header{
+    background: url('./assets/footer.png');
+  }
+  .main-h1{
+    font-size: 2em;
+  }
+  .title-h1{
+    font-size: 1.5em;
+  }
+  .description-p{
+    font-size:1.2em;
+  }
+  .vector-button:hover{
+    width:80;
+  }
+  .vector-button-2{
+    width:60%;
+  }
+  .vector-button-2:hover{
+    width:60%;
+  }
+  .project-button{
+    margin: 3%;
+  }
+  .overlay{
+    display:none;
+  }
+  #header{
+    padding-bottom: 20%;
+  }
+  #what-i-do{
+    padding-top: 15%;
+    padding-bottom:20%;
+  }
+  #what-i-do .description-h {
+    margin-bottom: 30px;
+  }
+  #projects{
+    padding-top: 10%;
+  }
+  #projects .col-sm-6{
+    margin-top: 10%;
+  }
+  #footer .main-h1{
+    display:none;
+  }
+  #footer .overlay-h1{
+    font-size:2em;
+  }
+  #footer a{
+    font-size: 1em !important;
+  }
+  #footer .col-sm-4{
+    margin-top: 5%;
+  }
+  #copyright{
+    text-align:left;
+    font-size: 0.8em;
+  }
+}
