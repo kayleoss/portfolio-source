@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Site from './Site';
 
 class Webapps extends React.Component {
 
@@ -13,65 +13,61 @@ class Webapps extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row p-t">
-          <div className="col-sm-6">
-            <a target="_blank"  href="http://recently-followed.s3-website-us-east-1.amazonaws.com/" rel="noopener noreferrer">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">Recently-Followed</h2>
-                <p>Find out who your bae just followed on Instagram <span role="img" aria-label="winky face">😜</span> This app scrapes instagram data from online sources and stores it into MongoDB database where it calculates new people followed. Front-end: HTML5, CSS3, JS, jQuery, AJAX. Back-end: Node, Express.</p>
-              </div>
-              <img className="project-img" src={require('../assets/recentlyfollowed.png')} alt="Katie Liu Worked On A Project For Neshama Therapy" />
-            </a>
-          </div>
-          <div className="col-sm-6">
-            <a target="_blank" rel="noopener noreferrer">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">Neshama Receipt Generator</h2>
-                <p>I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly.</p>
-              </div>
-              <img className="project-img" src={require('../assets/receipt.png')} alt="Katie Liu Worked On A Project For Neshama Therapy" />
-            </a>
-          </div>
-        </div>
-        <div className="row p-t">
-          <div className="col-sm-6">
-            <a href="https://peoplemanagerapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">PeopleManager</h2>
-                <p>People Manager is a website application where teams can visually analyze the demographics of their team members. Current demographics include gender and age, more to come! I built this web app with ReactJS, NodeJS, Express, and MongoDB.</p>
-              </div>
-              <img className="project-img" src={require('../assets/contact.png')} alt="PeopleManager lets you manage your people efficiently." />
-            </a>
-          </div>
-          <div className="col-sm-6">
-            <a target="_blank" rel="noopener noreferrer" href="https://limitless-crag-76563.herokuapp.com/">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">Dradry</h2>
-                <p>Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS.</p>
-              </div>
-              <img className="project-img" src={require('../assets/dradry.png')} alt="Dradry is a deep discussion forum." />
-            </a>
-          </div>
-        </div>
-        <div className="row p-t">
-          <div className="col-sm-6">
-            <a href="https://facialdata.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">Facial Analysis App</h2>
-                <p>Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework</p>
-              </div>
-              <img className="project-img" src={require('../assets/facial.png')} alt="Facial Analysis" />
-            </a>
-          </div>
-          <div className="col-sm-6">
-            <a target="_blank" rel="noopener noreferrer" href="https://evening-eyrie-92751.herokuapp.com/">
-              <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                <h2 className="overlay-h1">PartyLocal</h2>
-                <p>PartyLocal is an application for users to find parties around the GTA. Technologies used include NodeJS, MongoDB, and Express with an integrated Google Maps API.</p>
-              </div>
-              <img className="project-img" src={require('../assets/party.png')} alt="PartyLocal" />
-            </a>
-          </div>
+        <div className="row">
+          <Site
+            href="http://recently-followed.s3-website-us-east-1.amazonaws.com/" 
+            title="Recently-Followed" 
+            description="Find out who your bae just followed on Instagram <span role='img' aria-label='winky face'>😜</span> This app scrapes instagram data from online sources and stores it into MongoDB database where it calculates new people followed. Front-end: HTML5, CSS3, JS, jQuery, AJAX. Back-end: Node, Express." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="recentlyfollowed.png"
+            imgAlt="Katie Liu Worked On A Project For Neshama Therapy" 
+          />
+          <Site
+            href="javascript:;" 
+            title="Neshama Receipt Generator" 
+            description="I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="receipt.png"
+            imgAlt="Katie Liu Worked On A Project For Neshama Therapy" 
+          />
+          <Site
+            href="https://peoplemanagerapp.herokuapp.com/" 
+            title="PeopleManager" 
+            description="People Manager is a website application where teams can visually analyze the demographics of their team members. Current demographics include gender and age, more to come! I built this web app with ReactJS, NodeJS, Express, and MongoDB." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="contact.png"
+            imgAlt="PeopleManager lets you manage your people efficiently." 
+          />
+          <Site
+            href="https://limitless-crag-76563.herokuapp.com/" 
+            title="Dradry" 
+            description="Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="dradry.png"
+            imgAlt="Dradry is a deep discussion forum." 
+          />
+          <Site
+            href="https://facialdata.herokuapp.com/" 
+            title="Facial Analysis App" 
+            description="Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="facial.png"
+            imgAlt="Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion." 
+          />
+          <Site
+            href="https://evening-eyrie-92751.herokuapp.com/" 
+            title="PartyLocal" 
+            description="PartyLocal is an application for users to find parties around the GTA. Technologies used include NodeJS, MongoDB, and Express with an integrated Google Maps API." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="party.png"
+            imgAlt="PartyLocal web app image thumbnail, showing various cards with party location and details info." 
+          />
         </div>
       </div>
     )

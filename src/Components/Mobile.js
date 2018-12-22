@@ -1,4 +1,5 @@
 import React from 'react';
+import Site from './Site';
 
 class Mobile extends React.Component {
 
@@ -12,25 +13,25 @@ class Mobile extends React.Component {
     render() {
         return(
             <div className="container">
-                <div className="row p-t">
-                    <div className="col-sm-6">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kayleoss/tpsFrontEnd">
-                            <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                                <h2 className="overlay-h1">ResoTPS Front End</h2>
-                                <p>ResoTPS is a mobile app built with react native where users can get real time solutions to their problems and enter live chat sessions with members of authority.</p>
-                            </div>
-                            <img className="project-img" src={require('../assets/hackTPS.png')} alt="HackTPS Mobile App"/>
-                        </a>
-                    </div>
-                    <div className="col-sm-6">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kayleoss/post-it">
-                            <div className="overlay" onMouseOver={this.handleHover} onMouseLeave={this.handleLeave}>
-                                <h2 className="overlay-h1">Post-It </h2>
-                                <p>Post-It is a full-stack mobile app for bug reporting &amp; management. It uses a react native front end with a node &amp; express backend, with mongoDB as the database.</p>
-                            </div>
-                            <img className="project-img" src={require('../assets/post-it.jpg')} alt="post-it mobile app"/>
-                        </a>
-                    </div>
+                <div className="row">
+                    <Site 
+                        href="https://github.com/kayleoss/tpsFrontEnd" 
+                        title="ResoTPS Front End" 
+                        description="ResoTPS is a mobile app built with react native where users can get real time solutions to their problems and enter live chat sessions with members of authority." 
+                        mouseOverAction={this.handleHover}
+                        mouseLeaveAction={this.handleLeave}
+                        imgSrc="hackTPS.png"
+                        imgAlt="HackTPS mobile app preview, displaying various screens of the app, including online chat and categories." 
+                    />
+                    <Site 
+                        href="https://github.com/kayleoss/post-it" 
+                        title="Post-It" 
+                        description="Post-It is a full-stack mobile app for bug reporting &amp; management. It uses a react native front end with a node &amp; express backend, with mongoDB as the database." 
+                        mouseOverAction={this.handleHover}
+                        mouseLeaveAction={this.handleLeave}
+                        imgSrc="post-it.jpg"
+                        imgAlt="post-it mobile app image preview." 
+                    />
                 </div>
             </div>
         )

@@ -10,19 +10,24 @@ const SkillsText = () => (
             <li>CSS3, LESS, SASS</li>
             <li>JavaScript, jQuery, AJAX</li>
             <li>React, React Native, &amp; Redux</li>
+            <li>AngularJS</li>
             <li>Node.js</li>
             <li>Express framework</li>
             <li>PHP</li>
+            <li>Python</li>
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Automation:</h2>
+          <h2 className="label-h1">Automation/Testing:</h2>
           <ul>
             <li>Selenium Webdriver</li>
             <li>Robot Framework</li>
             <li>Python Scripting</li>
             <li>Launchd / Launchctl, Daemons (plist)</li>
             <li>Windows Task Scheduler</li>
+            <li>Enzyme, Jest</li>
+            <li>Perfecto</li>
+            <li>Penetration Testing</li>
           </ul>
         </div>
         <div className="col-sm-4">
@@ -33,6 +38,7 @@ const SkillsText = () => (
             <li>WordPress</li>
             <li>MAMP</li>
             <li>Gulp</li>
+            <li>Bitbucket</li>
           </ul>
         </div>
       </div>
@@ -46,15 +52,15 @@ const SkillsText = () => (
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Hosting &amp; Deployment:</h2>
+          <h2 className="label-h1">Product:</h2>
           <ul>
-            <li>Heroku</li>
-            <li>Godaddy</li>
-            <li>AWS</li>
+            <li>Agile/Kanban</li>
+            <li>Jira, Rally</li>
+            <li>Slack</li>
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Design Tools:</h2>
+          <h2 className="label-h1">UI/UX Design:</h2>
           <ul>
             <li>Sketch App</li>
             <li>Adobe Illustrator</li>

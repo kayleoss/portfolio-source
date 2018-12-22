@@ -15,7 +15,6 @@ const Footer = () => (
             <div className="col-sm-4">
               <h2 className="overlay-h1 p-b">Social Life</h2>
               <p className="main-p"><a href="https://instagram.com/kayleoss" rel="noopener noreferrer" target="_blank">Follow Me On Instagram <i className="fa fa-instagram"></i></a></p>
-              <p className="main-p"><a href="https://www.twitter.com/kayleos" rel="noopener noreferrer" target="_blank">Follow Me On Twitter <i className="fa fa-twitter-square"></i></a></p>
               <p className="main-p"><a href="https://www.facebook.com/april.del.7" rel="noopener noreferrer" target="_blank">Add Me On Facebook <i className="fa fa-facebook"></i></a></p>
               <p className="main-p"><a href="https://ca.linkedin.com/in/katie-liu-26046a110" rel="noopener noreferrer" target="_blank">Find Me On LinkedIn <i className="fa fa-linkedin"></i></a></p>
             </div>
