@@ -57,6 +57,9 @@ const SkillsText = () => (
             <li>Agile/Kanban</li>
             <li>Jira, Rally</li>
             <li>Slack</li>
+            <li>Ticket creation &amp; scoping</li>
+            <li>Acceptance criteria</li>
+            <li>Capacity management</li>
           </ul>
         </div>
         <div className="col-sm-4">
