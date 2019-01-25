@@ -25,6 +25,7 @@ class Webapps extends React.Component {
           />
           <Site
             href="javascript:;" 
+            warningText="Private - Unable To Demo"
             title="Neshama Receipt Generator" 
             description="I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly." 
             mouseOverAction={this.handleHover}
@@ -42,15 +43,6 @@ class Webapps extends React.Component {
             imgAlt="PeopleManager lets you manage your people efficiently." 
           />
           <Site
-            href="https://limitless-crag-76563.herokuapp.com/" 
-            title="Dradry" 
-            description="Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS." 
-            mouseOverAction={this.handleHover}
-            mouseLeaveAction={this.handleLeave}
-            imgSrc="dradry.png"
-            imgAlt="Dradry is a deep discussion forum." 
-          />
-          <Site
             href="https://facialdata.herokuapp.com/" 
             title="Facial Analysis App" 
             description="Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework." 
@@ -60,6 +52,15 @@ class Webapps extends React.Component {
             imgAlt="Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion." 
           />
           <Site
+            href="https://limitless-crag-76563.herokuapp.com/" 
+            title="Dradry" 
+            description="Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS." 
+            mouseOverAction={this.handleHover}
+            mouseLeaveAction={this.handleLeave}
+            imgSrc="dradry.png"
+            imgAlt="Dradry is a deep discussion forum." 
+          />
+          {/* <Site
             href="https://evening-eyrie-92751.herokuapp.com/" 
             title="PartyLocal" 
             description="PartyLocal is an application for users to find parties around the GTA. Technologies used include NodeJS, MongoDB, and Express with an integrated Google Maps API." 
@@ -67,7 +68,7 @@ class Webapps extends React.Component {
             mouseLeaveAction={this.handleLeave}
             imgSrc="party.png"
             imgAlt="PartyLocal web app image thumbnail, showing various cards with party location and details info." 
-          />
+          /> */}
         </div>
       </div>
     )

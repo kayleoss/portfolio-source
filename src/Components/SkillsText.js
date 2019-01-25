@@ -7,7 +7,7 @@ const SkillsText = () => (
           <h2 className="label-h1">Development:</h2>
           <ul>
             <li>HTML5</li>
-            <li>CSS3, LESS, SASS</li>
+            <li>CSS3/SASS</li>
             <li>JavaScript, jQuery, AJAX</li>
             <li>React, React Native, &amp; Redux</li>
             <li>AngularJS</li>
@@ -38,6 +38,7 @@ const SkillsText = () => (
             <li>WordPress</li>
             <li>MAMP</li>
             <li>Gulp</li>
+            <li>Github</li>
             <li>Bitbucket</li>
           </ul>
         </div>
@@ -52,12 +53,11 @@ const SkillsText = () => (
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Product:</h2>
+          <h2 className="label-h1">Product/Business:</h2>
           <ul>
             <li>Agile/Kanban</li>
             <li>Jira, Rally</li>
             <li>Slack</li>
-            <li>Ticket creation &amp; scoping</li>
             <li>Acceptance criteria</li>
             <li>Capacity management</li>
           </ul>

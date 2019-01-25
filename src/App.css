@@ -142,7 +142,7 @@ h1, h2, h3, h4 {
   background-size: cover;
   background-attachment: fixed;
 }
-#footer {
+#footer, .projects-bg {
   background: url('./assets/footer.png');
   background-size:cover;
   background-attachment: fixed;
@@ -158,7 +158,7 @@ h1, h2, h3, h4 {
   background: rgb(28, 20, 36);
   text-align:right;
 }
-#copyright p {
+#copyright p, .legal-text {
   margin:0 !important;
   color: rgba(255, 255, 255, 0.479);
 }

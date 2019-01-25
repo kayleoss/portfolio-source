@@ -8,19 +8,32 @@ import Skills from './Components/Skills';
 import SkillsText from './Components/SkillsText';
 import Footer from './Components/Footer';
 import Mobile from './Components/Mobile';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Blog from './Components/Blog';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Services />
-        <Projects />
-        <Footer />
+        <Router>
+          <div>
+              <Route exact path="/" component={Main} />
+              <Route path="/blog" component={Blog} />
+            <Footer />
+          </div>
+        </Router>
       </div>
     );
   }
 }
+
+const Main = () => (
+  <div>
+    <Header />
+    <Services />
+    <Projects />
+  </div>
+)
 
 class Services extends React.Component{ 
   state = {
@@ -75,8 +88,8 @@ class Projects extends React.Component {
     return (
       <section id="projects" className="p-b">
         <div className="text-center">
-        <h1 className="title-h1 wow fadeIn p-t">My Recent Projects</h1>
-        <p className="description-p">*Please allow 10 seconds for node applications to wake from sleep</p>
+        <h1 className="title-h1 wow fadeIn p-t">Recent Projects</h1>
+        <p className="description-p">*Please allow 10 seconds for web applications to wake from sleep</p>
         <div className="project-nav m-s-t">
           <button style={{background: this.state.websites ? 'lightblue' : '#916BB7'}} type="button" className="project-button" onClick={this.handleClickWebsites}>Websites</button>
           <button style={{background: this.state.webapps ? 'lightblue' : '#916BB7'}} type="button" className="project-button" onClick={this.handleClickWebapps}>Web Apps</button>

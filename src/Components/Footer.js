@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Footer = () => (
     <div>
@@ -17,6 +18,7 @@ const Footer = () => (
               <p className="main-p"><a href="https://instagram.com/kayleoss" rel="noopener noreferrer" target="_blank">Follow Me On Instagram <i className="fa fa-instagram"></i></a></p>
               <p className="main-p"><a href="https://www.facebook.com/april.del.7" rel="noopener noreferrer" target="_blank">Add Me On Facebook <i className="fa fa-facebook"></i></a></p>
               <p className="main-p"><a href="https://ca.linkedin.com/in/katie-liu-26046a110" rel="noopener noreferrer" target="_blank">Find Me On LinkedIn <i className="fa fa-linkedin"></i></a></p>
+              <p className="main-p"><Link to="/blog">What I Have To Say <i className="fa fa-book"></i></Link></p>
             </div>
             <div className="col-sm-4">
               <h2 className="overlay-h1 p-b">Get A Quote</h2>
