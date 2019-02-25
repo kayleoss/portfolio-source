@@ -8,7 +8,7 @@ import Skills from './Components/Skills';
 import SkillsText from './Components/SkillsText';
 import Footer from './Components/Footer';
 import Mobile from './Components/Mobile';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Blog from './Components/Blog';
 
 class App extends Component {

@@ -33,7 +33,7 @@ class Webapps extends React.Component {
             imgSrc="receipt.png"
             imgAlt="Katie Liu Worked On A Project For Neshama Therapy" 
           />
-          <Site
+          {/* <Site
             href="https://peoplemanagerapp.herokuapp.com/" 
             title="PeopleManager" 
             description="People Manager is a website application where teams can visually analyze the demographics of their team members. Current demographics include gender and age, more to come! I built this web app with ReactJS, NodeJS, Express, and MongoDB." 
@@ -41,7 +41,7 @@ class Webapps extends React.Component {
             mouseLeaveAction={this.handleLeave}
             imgSrc="contact.png"
             imgAlt="PeopleManager lets you manage your people efficiently." 
-          />
+          /> */}
           <Site
             href="https://facialdata.herokuapp.com/" 
             title="Facial Analysis App" 
