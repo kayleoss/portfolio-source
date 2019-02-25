@@ -8,36 +8,30 @@ import Skills from './Components/Skills';
 import SkillsText from './Components/SkillsText';
 import Footer from './Components/Footer';
 import Mobile from './Components/Mobile';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Blog from './Components/Blog';
 
 class App extends Component {
   render() {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
       <div className="App">
-        <Router>
-          <div>
-              <Route exact path="/" component={Main} />
-              <Route path="/blog" component={Blog} />
-            <Footer />
-          </div>
-        </Router>
+          <Header />
+          <Services />
+          <Projects />
+          <Footer date={year} />
       </div>
     );
   }
 }
 
-const Main = () => (
-  <div>
-    <Header />
-    <Services />
-    <Projects />
-  </div>
-)
-
 class Services extends React.Component{ 
   state = {
     toolbox: false
+  }
+  componentDidMount() {
+    if(window.location.href.includes('service-price')) {
+      this.setState({toolbox: true})
+    }
   }
   handleClick = () => {
     this.setState({toolbox: !this.state.toolbox});
@@ -45,10 +39,10 @@ class Services extends React.Component{
   render(){
     return(
       <section id="what-i-do" className="m-t p-b">
-        <h1 className="title-h1 wow fadeInDown text-center">Here's How I Can Help</h1>
-        {this.state.toolbox ? <div><p className="description-p text-center wow fadeInDown">Here's What's In My Toolbox:</p><SkillsText /></div>: <div><p className="description-p text-center wow fadeInDown">What I Can Do For Your Business:</p><Skills /></div> }
-        <div className="text-center m-s-t" style={{width: '100%'}}>
-          <a className="vector-button-2" onClick={this.handleClick}>{this.state.toolbox ? <img style={{width: '100%'}} src={require('./assets/cta-button-katie.png')} alt="Click this button to see what Katie Liu can do for you!"/> : <img style={{width: '100%'}} src={require('./assets/skills-button.png')} alt="Click this button to see all of Katie Liu's skills!"/> }</a>
+        <h1 className="title-h1 text-center">Technical consulting at its finest</h1>
+        {this.state.toolbox ? <div><p className="description-p text-center wow fadeInDown"><a href="#footer">Get a free consultation now!</a></p><SkillsText /></div>: <div><p className="description-p text-center">A variety of services are available (if you don't see what you require, <a href="mailto:katie_acting@live.ca">ask us</a>!):</p><Skills /></div> }
+        <div className="text-center mt-3">
+          <a href="javascript:;" className="vector-button text-light p-3" style={{border: '1px solid transparent'}} onClick={this.handleClick}>{this.state.toolbox ? "See our services" : "See our prices" }</a>
         </div>
       </section>
     )
@@ -86,9 +80,9 @@ class Projects extends React.Component {
       projects = <Mobile />
     }
     return (
-      <section id="projects" className="p-b">
+      <section id="projects" className="p-b custom-light-bg">
         <div className="text-center">
-        <h1 className="title-h1 wow fadeIn p-t">Recent Projects</h1>
+        <h1 className="title-h1 wow fadeIn p-t">Samples of our work</h1>
         <p className="description-p">*Please allow 10 seconds for web applications to wake from sleep</p>
         <div className="project-nav m-s-t">
           <button style={{background: this.state.websites ? 'lightblue' : '#916BB7'}} type="button" className="project-button" onClick={this.handleClickWebsites}>Websites</button>

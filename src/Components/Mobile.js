@@ -26,7 +26,7 @@ class Mobile extends React.Component {
                     <Site 
                         href="https://github.com/kayleoss/post-it" 
                         title="Post-It" 
-                        description="Post-It is a full-stack mobile app for bug reporting &amp; management. It uses a react native front end with a node &amp; express backend, with mongoDB as the database." 
+                        description="Post-It is a full-stack mobile app for bug reporting &amp; management. Now you can track your tasks on the go!" 
                         mouseOverAction={this.handleHover}
                         mouseLeaveAction={this.handleLeave}
                         imgSrc="post-it.jpg"

@@ -17,7 +17,7 @@ class Webgames extends React.Component{
             <Site 
               href="https://evening-escarpment-34767.herokuapp.com" 
               title="ConquerKill" 
-              description="Battle other players, earn coins, buy & equip weapons, and train your stats. I used a cool algorithm to determine the winner of each battle, taking into consideration the players' stats as well as luck. Built with Node, Express & MongoDB. Frontend with EJS, CSS, JS, & Materialize framework." 
+              description="Battle other players, earn coins, buy & equip weapons, and train your stats in this retro 80s inspired web game based on gladiators." 
               mouseOverAction={this.handleHover}
               mouseLeaveAction={this.handleLeave}
               imgSrc="conquer.png"

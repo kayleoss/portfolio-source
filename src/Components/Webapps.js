@@ -17,7 +17,7 @@ class Webapps extends React.Component {
           <Site
             href="http://recently-followed.s3-website-us-east-1.amazonaws.com/" 
             title="Recently-Followed" 
-            description="Find out who your bae just followed on Instagram <span role='img' aria-label='winky face'>😜</span> This app scrapes instagram data from online sources and stores it into MongoDB database where it calculates new people followed. Front-end: HTML5, CSS3, JS, jQuery, AJAX. Back-end: Node, Express." 
+            description="Find out who your bae just followed on Instagram <span role='img' aria-label='winky face'>😜</span> This app checks their instagram profile, compares it with who they were following before and lets you know all the new people they followed!" 
             mouseOverAction={this.handleHover}
             mouseLeaveAction={this.handleLeave}
             imgSrc="recentlyfollowed.png"
@@ -27,25 +27,25 @@ class Webapps extends React.Component {
             href="javascript:;" 
             warningText="Private - Unable To Demo"
             title="Neshama Receipt Generator" 
-            description="I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly." 
+            description="KDL Group built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist. If you would like to demo this private app, please email KDL Group directly." 
             mouseOverAction={this.handleHover}
             mouseLeaveAction={this.handleLeave}
             imgSrc="receipt.png"
             imgAlt="Katie Liu Worked On A Project For Neshama Therapy" 
           />
-          <Site
+          {/* <Site
             href="https://peoplemanagerapp.herokuapp.com/" 
             title="PeopleManager" 
-            description="People Manager is a website application where teams can visually analyze the demographics of their team members. Current demographics include gender and age, more to come! I built this web app with ReactJS, NodeJS, Express, and MongoDB." 
+            description="People Manager is a website application where teams can visually analyze the demographics of their team members. Current demographics include gender and age, more to come! KDL Group built this web app with ReactJS, NodeJS, Express, and MongoDB." 
             mouseOverAction={this.handleHover}
             mouseLeaveAction={this.handleLeave}
             imgSrc="contact.png"
             imgAlt="PeopleManager lets you manage your people efficiently." 
-          />
+          /> */}
           <Site
             href="https://facialdata.herokuapp.com/" 
             title="Facial Analysis App" 
-            description="Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework." 
+            description="Upload an image containing a human's face and analyze facial data like age, gender, emotions and ethnicity!" 
             mouseOverAction={this.handleHover}
             mouseLeaveAction={this.handleLeave}
             imgSrc="facial.png"
@@ -54,7 +54,7 @@ class Webapps extends React.Component {
           <Site
             href="https://limitless-crag-76563.herokuapp.com/" 
             title="Dradry" 
-            description="Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS." 
+            description="Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category." 
             mouseOverAction={this.handleHover}
             mouseLeaveAction={this.handleLeave}
             imgSrc="dradry.png"
