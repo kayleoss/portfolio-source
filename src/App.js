@@ -39,7 +39,7 @@ class Services extends React.Component{
   render(){
     return(
       <section id="what-i-do" className="m-t p-b">
-        <h1 className="title-h1 text-center">Technical consulting at its finest</h1>
+        <h1 className="title-h1 text-center">Technical consulting<br className="show-for-small" /> at its finest</h1>
         {this.state.toolbox ? <div><p className="description-p text-center wow fadeInDown"><a href="#footer">Get a free consultation now!</a></p><SkillsText /></div>: <div><p className="description-p text-center">A variety of services are available (if you don't see what you require, <a href="mailto:katie_acting@live.ca">ask us</a>!):</p><Skills /></div> }
         <div className="text-center mt-3">
           <a href="javascript:;" className="vector-button text-light p-3" style={{border: '1px solid transparent'}} onClick={this.handleClick}>{this.state.toolbox ? "See our services" : "See our prices" }</a>

@@ -64,6 +64,9 @@ h1, h2, h3, h4 {
 .m-b {
   margin-bottom: 5%;
 }
+.show-for-small {
+  display: none;
+}
 .overlay {
   opacity: 0;
   position:absolute;
@@ -240,6 +243,9 @@ a.vector-button:hover {
   }
 }
 @media (max-width: 700px) {
+  .show-for-small {
+    display: block;
+  }
   a[href="#footer"] {
     margin-top: 2rem;
   }
@@ -267,9 +273,6 @@ a.vector-button:hover {
   td:nth-child(3) {
     display:none;
   }
-  .vector-button.p-3.ml-3 {
-    margin-left: 0 !important;
-  }
   .overlay{
     display:none;
   }
@@ -288,9 +291,6 @@ a.vector-button:hover {
   }
   #projects .col-sm-6{
     margin-top: 10%;
-  }
-  #footer .main-h1{
-    display:none;
   }
   #footer .overlay-h1{
     font-size:2em;
