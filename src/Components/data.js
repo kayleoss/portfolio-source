@@ -9,7 +9,7 @@ export const websiteData = [
     },
     {
         href: "https://mavencare.com/sunlife-care",
-        title: "Mavencare &amp; Sun Life",
+        title: "Mavencare & Sun Life",
         description: "I built Mavencare's Sun Life and Referral landing pages using HTML, CSS, JavaScript, Handlebars, Node, and implemented AJAX form submission that creates a lead in the company-wide portal.",
         imgSrc: "mavencare-sunlife.png",
         imgAlt: "Katie Liu Worked On Mavencare's Sunlife Landing Page"
@@ -82,7 +82,7 @@ export const mobileData = [
     {
         href: "https://github.com/kayleoss/post-it", 
         title: "Post-It",
-        description: "Post-It is a full-stack mobile app for bug reporting &amp; management. It uses a react native front end with a node &amp; express backend, with mongoDB as the database.",
+        description: "Post-It is a full-stack mobile app for bug reporting & management. It uses a react native front end with a node & express backend, with mongoDB as the database.",
         imgSrc: "post-it.jpg",
         imgAlt:"post-it mobile app image preview."
     }

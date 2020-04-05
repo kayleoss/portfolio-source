@@ -121,6 +121,11 @@ h1, h2, h3, h4 {
   cursor:pointer;
   box-shadow: 2px 4px 0 rgb(70, 42, 99);
 }
+.topbar-absolute {
+  position: absolute;
+  left: 20px;
+  top: 20px; 
+}
 
 /* sections */
 #header {
@@ -201,6 +206,11 @@ a.legal-text:hover {
 @media (max-width: 700px) {
   #header{
     background: url('./assets/footer.png');
+  }
+  .topbar-absolute {
+    position: relative;
+    top: auto;
+    left: auto;
   }
   .main-h1{
     font-size: 2em;
