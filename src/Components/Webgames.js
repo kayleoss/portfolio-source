@@ -1,5 +1,6 @@
 import React from 'react';
 import Site from './Site';
+import {webGamesData} from './data.js';
 
 class Webgames extends React.Component{
 
@@ -14,15 +15,17 @@ class Webgames extends React.Component{
         return(
         <div className="container">
           <div className="row">
-            <Site 
-              href="https://evening-escarpment-34767.herokuapp.com" 
-              title="ConquerKill" 
-              description="Battle other players, earn coins, buy & equip weapons, and train your stats. I used a cool algorithm to determine the winner of each battle, taking into consideration the players' stats as well as luck. Built with Node, Express & MongoDB. Frontend with EJS, CSS, JS, & Materialize framework." 
-              mouseOverAction={this.handleHover}
-              mouseLeaveAction={this.handleLeave}
-              imgSrc="conquer.png"
-              imgAlt="ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online." 
-            />
+          {
+                  webGamesData.map(item => {
+                      return (
+                        <Site
+                          {...item}
+                          mouseOverAction={this.handleHover}
+                          mouseLeaveAction={this.handleLeave}
+                        />
+                      )
+                  })
+                }
           </div>
         </div>
         )

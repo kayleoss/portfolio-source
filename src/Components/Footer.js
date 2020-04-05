@@ -35,7 +35,7 @@ const Footer = () => (
         </div>
       </footer>
       <section id="copyright">
-        <p>Designed &amp; Built By Katie Liu &copy; All Rights Reserved 2018</p>
+<p>Designed &amp; Built By Katie Liu &copy; All Rights Reserved {new Date().getFullYear()}</p>
       </section>
     </div>
 )
