@@ -20,6 +20,7 @@ class Mobile extends React.Component {
                       return (
                         <Site 
                           {...item}
+                          key={mobileData.indexOf(item)}
                           description={item.description}
                           mouseOverAction={this.handleHover}
                           mouseLeaveAction={this.handleLeave}

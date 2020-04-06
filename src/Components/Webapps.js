@@ -2,7 +2,7 @@ import React from 'react';
 import Site from './Site';
 import {webAppData} from './data.js';
 
-class Webapps extends React.Component {
+export default class Webapps extends React.Component {
 
   handleHover = (e) => {
     e.target.style.opacity = 1;
@@ -20,6 +20,7 @@ class Webapps extends React.Component {
               return (
                 <Site 
                   {...item}
+                  key={webAppData.indexOf(item)}
                   mouseOverAction={this.handleHover}
                   mouseLeaveAction={this.handleLeave}
                 />
@@ -31,5 +32,3 @@ class Webapps extends React.Component {
     )
   }
 }
-
-export default Webapps;

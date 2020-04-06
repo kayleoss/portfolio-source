@@ -2,7 +2,7 @@ import React from 'react';
 import Site from './Site';
 import {websiteData} from './data.js';
 
-class Websites extends React.Component{
+export default class Websites extends React.Component{
 
     handleHover = (e) => {
       e.target.style.opacity = 1;
@@ -18,7 +18,8 @@ class Websites extends React.Component{
                 {
                   websiteData.map(item => {
                       return (
-                        <Site 
+                        <Site
+                          key={websiteData.indexOf(item)}
                           {...item}
                           mouseOverAction={this.handleHover}
                           mouseLeaveAction={this.handleLeave}
@@ -31,5 +32,3 @@ class Websites extends React.Component{
         )
     }
 }
-
-export default Websites;

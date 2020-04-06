@@ -2,7 +2,7 @@ import React from 'react';
 import Site from './Site';
 import {webGamesData} from './data.js';
 
-class Webgames extends React.Component{
+export default class Webgames extends React.Component{
 
     handleHover = (e) => {
       e.target.style.opacity = 1;
@@ -20,6 +20,7 @@ class Webgames extends React.Component{
                       return (
                         <Site
                           {...item}
+                          key={webGamesData.indexOf(item)}
                           mouseOverAction={this.handleHover}
                           mouseLeaveAction={this.handleLeave}
                         />
@@ -31,5 +32,3 @@ class Webgames extends React.Component{
         )
     }
 }
-
-export default Webgames;
