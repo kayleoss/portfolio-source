@@ -20,7 +20,7 @@ export default class Posts extends React.Component {
     }
     render() {
         return (
-            <div className="row mb-5 mt-5">
+            <div className="row mb-5 mt-5 border bg-light">
                 {this.state.loading ? <Loading /> : 
                     this.state.posts.map(post => {
                         return (<Post {...post} key={this.state.posts.indexOf(post)} />)

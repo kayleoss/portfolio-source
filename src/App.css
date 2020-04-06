@@ -46,6 +46,9 @@ h1, h2, h3, h4 {
 .text-center {
   text-align:center;
 }
+.content-post img {
+  max-width: 100%;
+}
 .padded {
   padding: 3%;
 }
