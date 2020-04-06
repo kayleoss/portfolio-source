@@ -5,7 +5,7 @@ const Post = (props) => {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const month = monthNames[date.getMonth()]
     return(
-        <div className="col-sm-4 border box-shadow">
+        <div className={"border box-shadow " + props.column}>
             <a href={props.link} target='_blank'><p className="description-h m-t" dangerouslySetInnerHTML={{__html: props.title}}></p></a>
             <p className="title-h1">{month + " " + date.getFullYear()}</p>
             <p className="text-secondary content-post" dangerouslySetInnerHTML={{__html: props.content}}></p>

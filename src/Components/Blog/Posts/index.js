@@ -22,8 +22,14 @@ export default class Posts extends React.Component {
         return (
             <div className="row mb-5 mt-5 bg-light">
                 {this.state.loading ? <Loading /> : 
-                    this.state.posts.map(post => {
-                        return (<Post {...post} key={this.state.posts.indexOf(post)} />)
+                    this.state.posts.map((post,i) => {
+                        let column;
+                        if ( (i%5 === 0 ) || (i%6 === 0) || (i===1) ) {
+                            column = 'col-sm-6';
+                        } else {
+                            column = 'col-sm-4';
+                        }
+                        return (<Post {...post} key={i} column={column} />)
                     })
                 }
             </div>
