@@ -7,7 +7,7 @@ const Post = (props) => {
     return(
         <div className={"border box-shadow " + props.column}>
             <a href={props.link} target='_blank'><p className="description-h m-t" dangerouslySetInnerHTML={{__html: props.title}}></p></a>
-            <p className="title-h1">{month + " " + date.getFullYear()}</p>
+            <p className="title-h1">{month + " " + date.getFullYear().toString()}</p>
             <p className="text-secondary content-post" dangerouslySetInnerHTML={{__html: props.content}}></p>
         </div>
     )
