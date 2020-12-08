@@ -11,7 +11,7 @@ export default class Posts extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@katieliu_7475')
+        axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@katieliu-7475')
         .then(response => {
             this.setState({posts: response.data.items, loading: false})
         })
