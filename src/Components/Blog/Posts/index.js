@@ -12,19 +12,19 @@ export default class Posts extends React.Component {
 
     componentDidMount() {
         axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@katieliu-7475')
-        .then(response => {
-            this.setState({posts: response.data.items, loading: false})
-        })
-        .catch(response => this.setState({error: true}));
+            .then(response => {
+                this.setState({ posts: response.data.items, loading: false })
+            })
+            .catch(response => this.setState({ error: true }));
     }
-    
+
     render() {
         return (
-            <div className="row mb-5 mt-5 bg-light">
-                {this.state.loading ? <Loading /> : 
-                    this.state.posts.map((post,i) => {
+            <div className="row m-auto pl-3 pr-3 bg-light">
+                {this.state.loading ? <Loading /> :
+                    this.state.posts.map((post, i) => {
                         let column;
-                        if ( (i%5 === 0 ) || (i%6 === 0) || (i===1) ) {
+                        if ((i % 5 === 0) || (i % 6 === 0) || (i === 1)) {
                             column = 'col-sm-6';
                         } else {
                             column = 'col-sm-4';
