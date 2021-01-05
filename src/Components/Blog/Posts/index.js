@@ -20,7 +20,7 @@ export default class Posts extends React.Component {
 
     render() {
         return (
-            <div className="row m-auto pl-3 pr-3 bg-light">
+            <div className="row m-auto pl-3 pr-3">
                 {this.state.loading ? <Loading /> :
                     this.state.posts.map((post, i) => {
                         let column;
