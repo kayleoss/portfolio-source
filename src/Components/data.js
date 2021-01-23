@@ -17,14 +17,14 @@ export const websiteData = [
     {
         href: "https://mavencare.com/senior-care-massachusetts",
         title: "Mavencare Senior Care",
-        description: "Following the product designer's prototypes, I built Mavencare's new Boston, Toronto, and NYC landers using HTML, CSS, JS, Node, and handlebars.", 
+        description: "Following the product designer's prototypes, I built Mavencare's new Boston, Toronto, and NYC landers using HTML, CSS, JS, Node, and handlebars.",
         imgSrc: "mavencare.png",
         imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
     },
     {
-        href: "http://paintballnation.ca/", 
+        href: "http://paintballnation.ca/",
         title: "Paintball Nation",
-        description: "I customized Paintball Nation's existing WordPress theme, fixed dead links, worked on responsiveness, and rearranged/updated content.", 
+        description: "I customized Paintball Nation's existing WordPress theme, fixed dead links, worked on responsiveness, and rearranged/updated content.",
         imgSrc: "pbn.png",
         imgAlt: "Katie Liu Worked On Paintball Nation's WordPress Theme"
     }
@@ -42,25 +42,25 @@ export const webGamesData = [
 
 export const webAppData = [
     {
-        href:"http://recently-followed.s3-website-us-east-1.amazonaws.com/",
-        title:"Recently-Followed",
-        description:"Find out who your bae just followed on Instagram <span role='img' aria-label='winky face'>😜</span> This app scrapes instagram data from online sources and stores it into MongoDB database where it calculates new people followed. Front-end: HTML5, CSS3, JS, jQuery, AJAX. Back-end: Node, Express.",
-        imgSrc: "recentlyfollowed.png",
-        imgAlt: "Katie Liu Worked On A Project For Neshama Therapy" 
-    }, 
+        href: "https://tech-buy.vercel.app/",
+        title: "TechBuy",
+        description: "This react app is a simple demo, work in progress and utilizes Best Buy's API to allow users to find great deals on tech products. Eventually, I want to build it into a mass hub pulling results from a variety of stores, as well as incorporate my own products into the results.",
+        imgSrc: "techbuy2.png",
+        imgAlt: "TechBuy preview image"
+    },
     {
         warningText: "Private - Unable To Demo",
         title: "Neshama Receipt Generator",
         description: "I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly.",
         imgSrc: "receipt.png",
-        imgAlt: "Katie Liu Worked On A Project For Neshama Therapy" 
+        imgAlt: "Katie Liu Worked On A Project For Neshama Therapy"
     },
     {
         href: "https://facialdata.herokuapp.com/",
         title: "Facial Analysis App",
         description: "Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework.",
         imgSrc: "facial.png",
-        imgAlt: "Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion." 
+        imgAlt: "Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion."
     },
     {
         href: "https://limitless-crag-76563.herokuapp.com/",
@@ -75,15 +75,17 @@ export const mobileData = [
     {
         href: "https://github.com/kayleoss/tpsFrontEnd",
         title: "ResoTPS Front End",
-        description: "ResoTPS is a mobile app built with react native where users can get real time solutions to their problems and enter live chat sessions with members of authority.",
+        description: "ResoTPS is a react native mobile app designed to help the Toronto police filter and automate requests and inquiries. It includes live chat with a police service specialist, situational tips and resources, automated forms for complaints, and more",
         imgSrc: "hackTPS.png",
-        imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories." 
+        imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",
+        imgClass: "static-height-img"
     },
     {
-        href: "https://github.com/kayleoss/post-it", 
+        href: "https://github.com/kayleoss/post-it",
         title: "Post-It",
         description: "Post-It is a full-stack mobile app for bug reporting & management. It uses a react native front end with a node & express backend, with mongoDB as the database.",
         imgSrc: "post-it.jpg",
-        imgAlt:"post-it mobile app image preview."
+        imgAlt: "post-it mobile app image preview.",
+        imgClass: "static-height-img"
     }
 ]
