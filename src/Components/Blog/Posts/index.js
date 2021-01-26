@@ -23,15 +23,10 @@ export default class Posts extends React.Component {
             <div className="row m-auto pl-3 pr-3">
                 {this.state.loading ? <Loading /> :
                     this.state.posts.map((post, i) => {
-                        let column;
-                        if ((i % 5 === 0) || (i % 6 === 0) || (i === 1)) {
-                            column = 'col-sm-6';
-                        } else {
-                            column = 'col-sm-4';
-                        }
-                        return (<Post {...post} key={i} column={column} />)
+                        return (<Post {...post} key={i} />)
                     })
                 }
+                <div className="text-center m-3 w-100"><p>Congrats, you've reached the end of my thoughts. Have a strawberry <span role="img" aria-label="strawberry icon">🍓</span></p></div>
             </div>
         )
     }

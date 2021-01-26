@@ -26,7 +26,7 @@ const Footer = () => (
               <input type="email" name="email" placeholder="Your Email Address" required />
               <textarea name="message" placeholder="What would you like to tell me?"></textarea><br />
               <div className="text-center">
-                <button type="submit" className="project-button">Send</button>
+                <button type="submit" className="border pl-5 pr-5 projects-bg rounded text-light">Send</button>
               </div>
             </form>
           </div>
