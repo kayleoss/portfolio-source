@@ -32,9 +32,9 @@ export const websiteData = [
 
 export const webGamesData = [
     {
-        href: "https://evening-escarpment-34767.herokuapp.com",
+        href: "https://github.com/kayleoss/conquerkill",
         title: "ConquerKill",
-        description: "Battle other players, earn coins, buy & equip weapons, and train your stats. I used a cool algorithm to determine the winner of each battle, taking into consideration the players' stats as well as luck. Built with Node, Express & MongoDB. Frontend with EJS, CSS, JS, & Materialize framework.",
+        description: "<span class='font-weight-bold text-danger'>This is an outdated legacy project that I have now taken down because of the recent Mongoose depreciation, however the source code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
         imgSrc: "conquer.png",
         imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
     }
@@ -49,7 +49,7 @@ export const webAppData = [
         imgAlt: "TechBuy preview image"
     },
     {
-        warningText: "Private - Unable To Demo",
+        warningText: "Private internal application. Not demoable",
         title: "Neshama Receipt Generator",
         description: "I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly.",
         imgSrc: "receipt.png",
@@ -61,13 +61,6 @@ export const webAppData = [
         description: "Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework.",
         imgSrc: "facial.png",
         imgAlt: "Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion."
-    },
-    {
-        href: "https://limitless-crag-76563.herokuapp.com/",
-        title: "Dradry",
-        description: "Dradry is an anonymous discussion forum. Users can log in and create posts, comment on posts, see their profile and the newest posts, and browse posts by category. I built Dradry with NodeJS, Express, MongoDB, and EJS.",
-        imgSrc: "dradry.png",
-        imgAlt: "Dradry is a deep discussion forum."
     }
 ];
 
