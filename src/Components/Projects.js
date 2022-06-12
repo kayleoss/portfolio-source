@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
         <section id="projects" className="p-b">
           <div className="text-center">
             <h1 className="title-h1 wow fadeIn p-t">Recent Projects</h1>
-            <p className="description-p">*Please allow 10 seconds for web applications to wake from sleep</p>
+            <p className="description-p">Most projects are no longer being hosted but check out my <a href="https://github.com/kayleoss" target="_blank" rel="noopener noreferrer">github</a> for the code</p>
             <div className="project-nav m-s-t">
               {items.map(item => {
                 return (
