@@ -42,23 +42,30 @@ export const webGamesData = [
 
 export const webAppData = [
     {
+        href: "https://instastoryviewer.vercel.app/",
+        title: "InstaStoryViewer",
+        description: "Made with vue, this app allows you to view and download instagram stories anonymously.",
+        imgSrc: "instastoryviewer.png",
+        imgAlt: "InstaStory Viewer preview image"
+    },
+    {
         href: "https://tech-buy.vercel.app/",
         title: "TechBuy",
-        description: "This react app is a simple demo, work in progress and utilizes Best Buy's API to allow users to find great deals on tech products. Eventually, I want to build it into a mass hub pulling results from a variety of stores, as well as incorporate my own products into the results.",
+        description: "This react app utilizes Best Buy's API to allow users to find great deals on tech products.",
         imgSrc: "techbuy2.png",
         imgAlt: "TechBuy preview image"
     },
     {
         warningText: "Private internal application. Not demoable",
         title: "Neshama Receipt Generator",
-        description: "I built a web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). If you would like to demo this private app, please email me directly.",
+        description: "Internal web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). Please contact me directly for demo access.",
         imgSrc: "receipt.png",
         imgAlt: "Katie Liu Worked On A Project For Neshama Therapy"
     },
     {
         href: "https://facialdata.herokuapp.com/",
         title: "Facial Analysis App",
-        description: "Upload an image containing a human's face and extract facial data like age, gender, and ethnicity! Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework.",
+        description: "Upload an image containing a human's face and extract facial data like age, gender, and ethnicity predictions. Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework.",
         imgSrc: "facial.png",
         imgAlt: "Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion."
     }
@@ -76,7 +83,7 @@ export const mobileData = [
     {
         href: "https://github.com/kayleoss/post-it",
         title: "Post-It",
-        description: "Post-It is a full-stack mobile app for bug reporting & management. It uses a react native front end with a node & express backend, with mongoDB as the database.",
+        description: "Post-It is a mobile app for bug reporting & management. It uses a react native front end with a node & express backend, with mongoDB as the database.",
         imgSrc: "post-it.jpg",
         imgAlt: "post-it mobile app image preview.",
         imgClass: "static-height-img"
