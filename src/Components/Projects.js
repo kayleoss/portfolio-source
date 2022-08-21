@@ -6,7 +6,7 @@ import Mobile from './Mobile';
 
 export default class Projects extends React.Component {
     state = {
-      section: 'Websites',
+      section: 'Web Games',
     }
     handleClick = (item) => {
       this.setState({section: item})

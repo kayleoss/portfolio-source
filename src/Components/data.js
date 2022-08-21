@@ -32,9 +32,16 @@ export const websiteData = [
 
 export const webGamesData = [
     {
+        href: "https://meetingdevon.vercel.app/",
+        title: "Vol 1: Meeting Devon",
+        description: "A visual novel game. Made with VueJS, Procreate, Garageband.",
+        imgSrc: "covercensored.png",
+        imgAlt: "Meeting Devon cover image"
+    },
+    {
         href: "https://github.com/kayleoss/conquerkill",
         title: "ConquerKill",
-        description: "<span class='font-weight-bold text-danger'>This is an outdated legacy project that I have now taken down because of the recent Mongoose depreciation, however the source code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
+        description: "<span class='font-weight-bold text-danger'>This is legacy game has been depreciated, however the code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
         imgSrc: "conquer.png",
         imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
     }
@@ -44,7 +51,7 @@ export const webAppData = [
     {
         href: "https://instastoryviewer.vercel.app/",
         title: "InstaStoryViewer",
-        description: "Made with vue, this app allows you to view and download instagram stories anonymously.",
+        description: "This app allows users to view and download instagram stories anonymously. Made with VueJS.",
         imgSrc: "instastoryviewer.png",
         imgAlt: "InstaStory Viewer preview image"
     },
@@ -61,13 +68,6 @@ export const webAppData = [
         description: "Internal web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). Please contact me directly for demo access.",
         imgSrc: "receipt.png",
         imgAlt: "Katie Liu Worked On A Project For Neshama Therapy"
-    },
-    {
-        href: "https://facialdata.herokuapp.com/",
-        title: "Facial Analysis App",
-        description: "Upload an image containing a human's face and extract facial data like age, gender, and ethnicity predictions. Using Node, Express, and the Face++ API. Frontend with EJS, JS, CSS & Materialize framework.",
-        imgSrc: "facial.png",
-        imgAlt: "Image thumbnail of Facial Analysis App, showing a person's face being analyzed in terms of race, mood, and emotion."
     }
 ];
 
