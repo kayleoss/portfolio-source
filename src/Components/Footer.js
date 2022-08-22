@@ -10,7 +10,7 @@ const Footer = () => (
           <div className="offset-sm-4"></div>
           <div className="col-sm-4">
             <h2 className="overlay-h1 p-b">Social</h2>
-            <p className="main-p"><a href="https://www.linkedin.com/in/katie-duo-liu-26046a110/" rel="noopener noreferrer" target="_blank">Find me on LinkedIn <i className="fa fa-linkedin"></i></a></p>
+            <p className="main-p"><a href="https://www.linkedin.com/in/katie-duo-l-26046a110/" rel="noopener noreferrer" target="_blank">Find me on LinkedIn <i className="fa fa-linkedin"></i></a></p>
             <p className="main-p"><a href="https://www.github.com/kayleoss" target="_blank" rel="noopener noreferrer">Check out my Github <i className="fa fa-github"></i></a></p>
             <p className="main-p"><Link to="/blog">Read my blog <i className="fa fa-book"></i></Link></p>
           </div>
