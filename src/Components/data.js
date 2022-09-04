@@ -93,10 +93,12 @@ export const mobileData = [
 export const artData = [
     {
         title: "Jun",
-        description: 'Digital painting of a middle aged man playing soccer',
+        description: 'A middle aged man playing soccer',
         img: 'jun.jpg',
         dimensions: '4000 x 4000',
-        format: 'JPG'
+        format: 'JPG',
+        purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
+        price: '$5.00'
     },
     // {
     //     title: "Jo",
@@ -107,32 +109,37 @@ export const artData = [
     // },
     {
         title: "Marsha",
-        description: 'Digital painting of Marsha at the Liberation Day March',
+        description: 'Marsha at the Liberation Day March',
         img: 'marsha.jpg',
         dimensions: '2744 x 3886',
         format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
-        price: '$2.00'
+        purchaseLink: 'https://buy.stripe.com/fZe4hJ2xl7yFgdW8wA',
+        price: '$5.00'
     },
     {
+        title: "Manifestation",
+        description: 'A person imagines living with their fish',
+        img: 'manifestation.jpg',
+        dimensions: '4000 x 4000',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        price: '$5.00'
+    },
+    // {
+    //     title: "Protagonist 1",
+    //     description: 'Artwork from Meeting Devon, Scene 2',
+    //     img: 'protag1.jpg',
+    //     dimensions: '3713 x 1763',
+    //     format: 'JPG',
+    //     link: 'protag2.jpg'
+    // },
+    {
         title: "Fly me to the moon",
-        description: "One page comic about a person who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
+        description: "One page comic about a guy who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
         img: 'webtoon1.png',
         dimensions: '1600 x 12000',
         format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/6oE8xZ9ZNdX35zi6op',
-        price: '$1.50'
-    },
-    // {
-    //    blank: true
-    // },
-    {
-        title: "Protagonist 1",
-        description: 'Artwork from Meeting Devon, Scene 2',
-        img: 'protag1.jpg',
-        dimensions: '3713 x 1763',
-        format: 'JPG',
-        link: 'protag2.jpg'
+        link: 'webtoon1.jpg'
     },
     {
         title: "The Protagonists",
@@ -141,7 +148,7 @@ export const artData = [
         dimensions: '7200 x 6000',
         format: 'JPG',
         purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
-        price: '$2.50'
+        price: '$5.00'
     },
     {
         title: "The Protagonists 2",
@@ -150,6 +157,6 @@ export const artData = [
         dimensions: '2281 x 1257',
         format: 'Animated PNG',
         purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-        price: '$3.50'
+        price: '$15.00'
     },
 ]

@@ -4,6 +4,14 @@ const SkillsText = () => (
     <div className="container">
       <div className="row p-t">
         <div className="col-sm-4">
+          <h2 className="label-h1">Automation/Testing:</h2>
+          <ul>
+            <li>Selenium Webdriver</li>
+            <li>Robot Framework</li>
+            <li>Windows Task Scheduler</li>
+          </ul>
+        </div>
+        <div className="col-sm-4">
           <h2 className="label-h1">Development:</h2>
           <ul>
             <li>HTML5</li>
@@ -17,22 +25,10 @@ const SkillsText = () => (
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Automation/Testing:</h2>
-          <ul>
-            <li>Selenium Webdriver</li>
-            <li>Robot Framework</li>
-            <li>Launchd / Launchctl, Daemons (plist)</li>
-            <li>Windows Task Scheduler</li>
-            <li>Enzyme, Jest</li>
-            <li>Perfecto</li>
-          </ul>
-        </div>
-        <div className="col-sm-4">
           <h2 className="label-h1">Tools:</h2>
           <ul>
             <li>Git</li>
             <li>WordPress</li>
-            <li>Gulp</li>
             <li>Github</li>
             <li>Bitbucket</li>
             <li>Azure Devops</li>
@@ -49,16 +45,16 @@ const SkillsText = () => (
             <li>Microsoft Access</li>
           </ul>
         </div>
-        <div className="col-sm-4">
+        {/* <div className="col-sm-4">
           <h2 className="label-h1">Product/Business:</h2>
           <ul>
             <li>Agile/Kanban</li>
-            <li>Jira, Rally</li>
+            <li>Jira</li>
             <li>Slack</li>
             <li>Acceptance criteria</li>
             <li>Capacity management</li>
           </ul>
-        </div>
+        </div> */}
         <div className="col-sm-4">
           <h2 className="label-h1">UI/UX Design:</h2>
           <ul>

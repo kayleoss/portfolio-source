@@ -5,11 +5,11 @@ import ArtTile from './ArtTile';
 class Art extends React.Component {
     render() {
         return(
-            <section className="p-b">
+            <section className="p-b" id="art">
                 <div className="container">
                     <div className="text-center">
-                        <h1 className="title-h1 wow fadeIn p-t">Digital art</h1>
-                        <p className="description-p">Paintings, drawings, webtoons, and other assets available for purchase</p>
+                        <h1 className="title-h1 wow fadeIn p-t">Art for sale</h1>
+                        <p className="description-p">Buy a full-resolution digital copy of the  artwork</p>
                     </div>
                     
                     <div className="row">

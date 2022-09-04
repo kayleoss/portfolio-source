@@ -16,7 +16,7 @@ const ArtTile = (props) => (
                     <br />Format: {props.format}
                     <br />
                     {props.purchaseLink ?
-                        <a href={props.purchaseLink} target="_blank" aria-label="Buy now">Buy for {props.price}</a>
+                        <a href={props.purchaseLink} target="_blank" aria-label="Buy now">Buy full-res for {props.price}</a>
                         :
                         <a href={props.link ? require("../assets/" + props.link) : require("../assets/" + props.img)} target="_blank">View/Download for free</a>
                     }
