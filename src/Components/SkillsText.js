@@ -9,12 +9,11 @@ const SkillsText = () => (
             <li>HTML5</li>
             <li>CSS3/SASS</li>
             <li>JavaScript, jQuery, AJAX</li>
-            <li>React, React Native, &amp; Redux</li>
-            <li>AngularJS</li>
+            <li>React</li>
+            <li>VueJS</li>
             <li>Node.js</li>
-            <li>Express framework</li>
-            <li>PHP</li>
             <li>Python</li>
+            <li>Django</li>
           </ul>
         </div>
         <div className="col-sm-4">
@@ -22,24 +21,21 @@ const SkillsText = () => (
           <ul>
             <li>Selenium Webdriver</li>
             <li>Robot Framework</li>
-            <li>Python Scripting</li>
             <li>Launchd / Launchctl, Daemons (plist)</li>
             <li>Windows Task Scheduler</li>
             <li>Enzyme, Jest</li>
             <li>Perfecto</li>
-            <li>Penetration Testing</li>
           </ul>
         </div>
         <div className="col-sm-4">
-          <h2 className="label-h1">Development Tools:</h2>
+          <h2 className="label-h1">Tools:</h2>
           <ul>
-            <li>Command Line Interface / Bash</li>
             <li>Git</li>
             <li>WordPress</li>
-            <li>MAMP</li>
             <li>Gulp</li>
             <li>Github</li>
             <li>Bitbucket</li>
+            <li>Azure Devops</li>
           </ul>
         </div>
       </div>
@@ -49,6 +45,7 @@ const SkillsText = () => (
           <ul>
             <li>MongoDB</li>
             <li>MySQL</li>
+            <li>PostgreSQL</li>
             <li>Microsoft Access</li>
           </ul>
         </div>

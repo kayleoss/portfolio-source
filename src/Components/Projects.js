@@ -6,7 +6,7 @@ import Mobile from './Mobile';
 
 export default class Projects extends React.Component {
     state = {
-      section: 'Web Games',
+      section: 'Websites',
     }
     handleClick = (item) => {
       this.setState({section: item})
@@ -40,7 +40,7 @@ export default class Projects extends React.Component {
             <div className="project-nav m-s-t">
               {items.map(item => {
                 return (
-                  <button 
+                  <button
                     key={items.indexOf(item)}
                     style={{background: this.state.section === item ? 'lightblue' : '#916BB7'}} 
                     type="button" 

@@ -5,15 +5,15 @@ const Footer = () => (
   <div>
     <footer id="footer" className="p-t p-b">
       <div className="container">
-        <h1 className="main-h1 text-center">Want to connect?</h1>
+        <h1 className="main-h1 text-center">Contact Me</h1>
         <div className="row p-t">
           <div className="offset-sm-4"></div>
-          <div className="col-sm-4">
+          {/* <div className="col-sm-4">
             <h2 className="overlay-h1 p-b">Social</h2>
             <p className="main-p"><a href="https://www.linkedin.com/in/katie-duo-l-26046a110/" rel="noopener noreferrer" target="_blank">Find me on LinkedIn <i className="fa fa-linkedin"></i></a></p>
             <p className="main-p"><a href="https://www.github.com/kayleoss" target="_blank" rel="noopener noreferrer">Check out my Github <i className="fa fa-github"></i></a></p>
             <p className="main-p"><Link to="/blog">Read my blog <i className="fa fa-book"></i></Link></p>
-          </div>
+          </div> */}
           <div className="col-sm-4">
             <h2 className="overlay-h1 p-b">Send a message</h2>
             <form id="cta-form" action="https://formspree.io/katie_acting@live.ca" method="POST">
@@ -29,7 +29,7 @@ const Footer = () => (
       </div>
     </footer>
     <section id="copyright">
-      <p>Designed &amp; Built By Katie Liu &copy; All Rights Reserved {new Date().getFullYear()}</p>
+      <p>Katie &copy; All Rights Reserved {new Date().getFullYear()}</p>
     </section>
   </div>
 )

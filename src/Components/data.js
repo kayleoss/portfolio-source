@@ -89,3 +89,67 @@ export const mobileData = [
         imgClass: "static-height-img"
     }
 ]
+
+export const artData = [
+    {
+        title: "Jun",
+        description: 'Digital painting of a middle aged man playing soccer',
+        img: 'jun.jpg',
+        dimensions: '4000 x 4000',
+        format: 'JPG'
+    },
+    // {
+    //     title: "Jo",
+    //     description: 'Digital painting of a legendary burlesque performer and educator',
+    //     img: 'eve.jpg',
+    //     dimensions: '1790 x 2409',
+    //     format: 'JPG'
+    // },
+    {
+        title: "Marsha",
+        description: 'Digital painting of Marsha at the Liberation Day March',
+        img: 'marsha.jpg',
+        dimensions: '2744 x 3886',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        price: '$2.00'
+    },
+    {
+        title: "Fly me to the moon",
+        description: "One page comic about a person who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
+        img: 'webtoon1.png',
+        dimensions: '1600 x 12000',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/6oE8xZ9ZNdX35zi6op',
+        price: '$1.50'
+    },
+    // {
+    //    blank: true
+    // },
+    {
+        title: "Protagonist 1",
+        description: 'Artwork from Meeting Devon, Scene 2',
+        img: 'protag1.jpg',
+        dimensions: '3713 x 1763',
+        format: 'JPG',
+        link: 'protag2.jpg'
+    },
+    {
+        title: "The Protagonists",
+        description: 'Bonus artwork from "Meeting Devon"',
+        img: 'art1.jpg',
+        dimensions: '7200 x 6000',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
+        price: '$2.50'
+    },
+    {
+        title: "The Protagonists 2",
+        description: 'Artwork from Meeting Devon, Scene 3',
+        img: 'together2.jpg',
+        dimensions: '2281 x 1257',
+        format: 'Animated PNG',
+        purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
+        price: '$3.50'
+    },
+]

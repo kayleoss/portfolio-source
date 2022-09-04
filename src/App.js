@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import { Route } from "react-router-dom";
 import Blog from './Components/Blog';
 import Main from './Components/Main';
+import Payment from './Components/Payment';
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
           <div>
               <Route exact path="/" component={Main} />
               <Route path="/blog" component={Blog} />
-            <Footer />
+              <Route path="/payment" component={Payment} />
+              <Footer />
           </div>
       </div>
     );
