@@ -91,13 +91,6 @@ export const mobileData = [
 ]
 
 export const artData = [
-    // {
-    //     title: "Jo",
-    //     description: 'Digital painting of a legendary burlesque performer and educator',
-    //     img: 'eve.jpg',
-    //     dimensions: '1790 x 2409',
-    //     format: 'JPG'
-    // },
     {
         title: "The Kick",
         description: 'A person in a kicking position. Digital sketch',
