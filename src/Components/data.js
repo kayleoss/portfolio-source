@@ -97,7 +97,7 @@ export const artData = [
         img: 'thekick.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
         price: '$5.00'
     },
     {
