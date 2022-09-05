@@ -1,13 +1,14 @@
 import { propsToAttrMap } from '@vue/shared';
 import React from 'react';
 import { Link } from "react-router-dom";
+import '../App.css';
 
 const ArtTile = (props) => (
-    <div className="col-sm-4 p-5 wow fadeIn">
+    <div className="col-sm-4 p-5">
         {props.blank == true ? ""
             :
-            <div>
-                <img src={require("../assets/" + props.img)} alt="" className="w-100 border shadow npe" />
+            <div class="wow fadeInUp" data-wow-delay="1s">
+                <img src={require("../assets/" + props.img)} alt="" className="w-100 shadow npe" />
                 <p className="mt-5 text-secondary"><span className="font-weight-bold">
                     {props.title}</span><br />
                     <em>{props.description}</em>

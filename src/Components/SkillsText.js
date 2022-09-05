@@ -4,7 +4,7 @@ const SkillsText = () => (
     <div className="container">
       <div className="row p-t">
         <div className="col-sm-4">
-          <h2 className="label-h1">Automation/Testing:</h2>
+          <h2 className="label-h1">Automation:</h2>
           <ul>
             <li>Selenium Webdriver</li>
             <li>Robot Framework</li>

@@ -91,15 +91,6 @@ export const mobileData = [
 ]
 
 export const artData = [
-    {
-        title: "Jun",
-        description: 'A middle aged man playing soccer',
-        img: 'jun.jpg',
-        dimensions: '4000 x 4000',
-        format: 'JPG',
-        purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
-        price: '$5.00'
-    },
     // {
     //     title: "Jo",
     //     description: 'Digital painting of a legendary burlesque performer and educator',
@@ -108,17 +99,8 @@ export const artData = [
     //     format: 'JPG'
     // },
     {
-        title: "Marsha",
-        description: 'Marsha at the Liberation Day March',
-        img: 'marsha.jpg',
-        dimensions: '2744 x 3886',
-        format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/fZe4hJ2xl7yFgdW8wA',
-        price: '$5.00'
-    },
-    {
-        title: "Kick",
-        description: 'A person in a kicking position',
+        title: "The Kick",
+        description: 'A person in a kicking position. Digital sketch',
         img: 'thekick.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
@@ -126,18 +108,33 @@ export const artData = [
         price: '$5.00'
     },
     {
-        title: "Manifestation",
-        description: 'A person imagines living with their fish',
-        img: 'manifestation.jpg',
-        dimensions: '4000 x 4000',
+        title: "Marsha",
+        description: 'Marsha at the Liberation Day March. Digital painting',
+        img: 'marsha.jpg',
+        dimensions: '2744 x 3886',
         format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        purchaseLink: 'https://buy.stripe.com/fZe4hJ2xl7yFgdW8wA',
         price: '$5.00'
     },
+    {
+        blank: true
+    },
+    {
+        blank: true
+    },
     
+    {
+        title: "Pipa",
+        description: 'Young girl playing the pipa at the dragon festival. Digital painting',
+        img: 'festival1.jpg',
+        dimensions: '4000 x 4000',
+        format: 'JPG',
+        purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
+        price: '$15.00'
+    },
     // {
     //     title: "Protagonist 1",
-    //     description: 'Artwork from Meeting Devon, Scene 2',
+    //     description: 'Artwork from Meeting Devon, Scene 2. Digital drawing',
     //     img: 'protag1.jpg',
     //     dimensions: '3713 x 1763',
     //     format: 'JPG',
@@ -152,21 +149,36 @@ export const artData = [
     //     link: 'webtoon1.jpg'
     // },
     {
+        blank: true
+    },
+    {
+        title: "Manifestation",
+        description: 'A person imagines living with their fish. Digital drawing',
+        img: 'manifestation.jpg',
+        dimensions: '4000 x 4000',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        price: '$5.00'
+    },
+    {
+        blank: true
+    },
+    {
         title: "The Protagonists",
-        description: 'Bonus artwork from "Meeting Devon"',
+        description: 'Bonus artwork from "Meeting Devon". Digital drawing',
         img: 'art1.jpg',
         dimensions: '7200 x 6000',
         format: 'JPG',
         purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
         price: '$5.00'
     },
-    {
-        title: "The Protagonists 2",
-        description: 'Artwork from "Meeting Devon", Scene 3',
-        img: 'together2.jpg',
-        dimensions: '2281 x 1257',
-        format: 'Animated PNG',
-        purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-        price: '$15.00'
-    },
+    // {
+    //     title: "The Protagonists 2",
+    //     description: 'Artwork from "Meeting Devon", Scene 3. Digital drawing',
+    //     img: 'together2.jpg',
+    //     dimensions: '2281 x 1257',
+    //     format: 'Animated PNG',
+    //     purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
+    //     price: '$15.00'
+    // },
 ]

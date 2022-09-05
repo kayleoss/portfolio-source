@@ -8,7 +8,7 @@ class Art extends React.Component {
             <section className="p-b" id="art">
                 <div className="container">
                     <div className="text-center">
-                        <h1 className="title-h1 wow fadeIn p-t">Art for sale</h1>
+                        <h1 className="title-h1 p-t">Art for sale</h1>
                         <p className="description-p">Buy a full-resolution digital copy of the  artwork</p>
                     </div>
                     
