@@ -117,6 +117,15 @@ export const artData = [
         price: '$5.00'
     },
     {
+        title: "Kick",
+        description: 'A person in a kicking position',
+        img: 'thekick.jpg',
+        dimensions: '4000 x 4000',
+        format: 'JPG',
+        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+        price: '$5.00'
+    },
+    {
         title: "Manifestation",
         description: 'A person imagines living with their fish',
         img: 'manifestation.jpg',
@@ -125,6 +134,7 @@ export const artData = [
         purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
         price: '$5.00'
     },
+    
     // {
     //     title: "Protagonist 1",
     //     description: 'Artwork from Meeting Devon, Scene 2',
@@ -133,14 +143,14 @@ export const artData = [
     //     format: 'JPG',
     //     link: 'protag2.jpg'
     // },
-    {
-        title: "Fly me to the moon",
-        description: "One page comic about a guy who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
-        img: 'webtoon1.png',
-        dimensions: '1600 x 12000',
-        format: 'JPG',
-        link: 'webtoon1.jpg'
-    },
+    // {
+    //     title: "Fly me to the moon",
+    //     description: "One page comic about a guy who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
+    //     img: 'webtoon1.png',
+    //     dimensions: '1600 x 12000',
+    //     format: 'JPG',
+    //     link: 'webtoon1.jpg'
+    // },
     {
         title: "The Protagonists",
         description: 'Bonus artwork from "Meeting Devon"',
@@ -152,7 +162,7 @@ export const artData = [
     },
     {
         title: "The Protagonists 2",
-        description: 'Artwork from Meeting Devon, Scene 3',
+        description: 'Artwork from "Meeting Devon", Scene 3',
         img: 'together2.jpg',
         dimensions: '2281 x 1257',
         format: 'Animated PNG',
