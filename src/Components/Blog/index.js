@@ -23,7 +23,7 @@ export default class Blog extends React.Component {
             <section id="top">
                 <Topbar title="thoughts" />
                 <div className="container">
-                    <p className="text-center">Welcome to a page full of stuff pulled from my <a href='https://medium.com/@katieliu_7475'>Medium</a>. Enjoy!</p>
+                    <p className="text-center">Welcome to a page full of stuff pulled from my <a href='https://medium.com/@katieliu-7475'>Medium</a>. Enjoy!</p>
                     <hr />
                     <Posts />
                 </div>

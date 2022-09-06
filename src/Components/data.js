@@ -93,7 +93,7 @@ export const mobileData = [
 export const artData = [
     {
         title: "The Kick",
-        description: 'A person in a kicking position. Digital sketch',
+        description: 'Demonstrative kick. Digital sketch',
         img: 'thekick.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
@@ -102,7 +102,7 @@ export const artData = [
     },
     {
         title: "Marsha",
-        description: 'Marsha at the Liberation Day March. Digital painting',
+        description: 'Mayor of Christopher Street. Digital sketch',
         img: 'marsha.jpg',
         dimensions: '2744 x 3886',
         format: 'JPG',
@@ -118,7 +118,7 @@ export const artData = [
     
     {
         title: "Pipa",
-        description: 'Young girl playing the pipa at the dragon festival. Digital painting',
+        description: 'Young girl playing the pipa. Digital painting',
         img: 'festival1.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
@@ -142,11 +142,17 @@ export const artData = [
     //     link: 'webtoon1.jpg'
     // },
     {
-        blank: true
+        title: "Jo",
+        description: 'Red-headed force of nature. Digital painting',
+        img: 'jo.jpg',
+        dimensions: '2763 x 2530',
+        format: 'JPG',
+        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
+        price: '$15.00'
     },
     {
         title: "Manifestation",
-        description: 'A person imagines living with their fish. Digital drawing',
+        description: 'A person manifests living with their fish. Digital drawing',
         img: 'manifestation.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
@@ -154,16 +160,16 @@ export const artData = [
         price: '$5.00'
     },
     {
-        blank: true
-    },
-    {
         title: "The Protagonists",
-        description: 'Bonus artwork from "Meeting Devon". Digital drawing',
+        description: 'Bonus artwork from my game "Meeting Devon". Digital drawing',
         img: 'art1.jpg',
         dimensions: '7200 x 6000',
         format: 'JPG',
         purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
         price: '$5.00'
+    },
+    {
+        blank: true
     },
     // {
     //     title: "The Protagonists 2",

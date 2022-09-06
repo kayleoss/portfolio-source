@@ -7,7 +7,7 @@ import Art from './Art';
 const Main = () => (
     <div>
       <Header />
-      <Services />
+      {/* <Services /> */}
       <Projects />
       <Art />
     </div>

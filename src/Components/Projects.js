@@ -35,7 +35,7 @@ export default class Projects extends React.Component {
       return (
         <section id="projects" className="p-b">
           <div className="text-center">
-            <h1 className="title-h1 wow fadeIn p-t">Recent Projects</h1>
+            <h1 className="title-h1 wow fadeIn p-t">Development projects</h1>
             <p className="description-p">Source code for projects available on my <a href="https://github.com/kayleoss" target="_blank" rel="noopener noreferrer">github</a></p>
             <div className="project-nav m-s-t">
               {items.map(item => {
