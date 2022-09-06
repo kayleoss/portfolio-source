@@ -117,8 +117,8 @@ export const artData = [
     },
     
     {
-        title: "Pipa",
-        description: 'Young girl playing the pipa. Digital painting',
+        title: "Pipa Player",
+        description: 'Child playing the pipa at the dragon festival. Digital painting',
         img: 'festival1.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
@@ -150,27 +150,27 @@ export const artData = [
         purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
         price: '$15.00'
     },
-    {
-        title: "Manifestation",
-        description: 'A person manifests living with their fish. Digital drawing',
-        img: 'manifestation.jpg',
-        dimensions: '4000 x 4000',
-        format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
-        price: '$5.00'
-    },
-    {
-        title: "The Protagonists",
-        description: 'Bonus artwork from my game "Meeting Devon". Digital drawing',
-        img: 'art1.jpg',
-        dimensions: '7200 x 6000',
-        format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
-        price: '$5.00'
-    },
-    {
-        blank: true
-    },
+    // {
+    //     title: "Manifestation",
+    //     description: 'A person manifests living with their fish. Digital drawing',
+    //     img: 'manifestation.jpg',
+    //     dimensions: '4000 x 4000',
+    //     format: 'JPG',
+    //     purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
+    //     price: '$5.00'
+    // },
+    // {
+    //     title: "The Protagonists",
+    //     description: 'Bonus artwork from my game "Meeting Devon". Digital drawing',
+    //     img: 'art1.jpg',
+    //     dimensions: '7200 x 6000',
+    //     format: 'JPG',
+    //     purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
+    //     price: '$5.00'
+    // },
+    // {
+    //     blank: true
+    // },
     // {
     //     title: "The Protagonists 2",
     //     description: 'Artwork from "Meeting Devon", Scene 3. Digital drawing',
