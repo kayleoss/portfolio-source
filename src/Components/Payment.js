@@ -11,7 +11,8 @@ class Payment extends React.Component {
                         <div class="col-sm-6 offset-md-3">
                             <h1 class="title-h1 text-center font-weight-bold">Thank you! <span role="img" aria-label="happy face">😊</span></h1>
                             <p class="text-secondary mt-5">
-                                A full resolution copy of the artwork you have purchased will be emailed to you within 2 business days.<br/>
+                                Digital artwork will be emailed to you within 2 business days.<br/>
+                                Prints will be shipped to your address within 3 weeks.<br />
                                 <br/>Have questions? Don't hesitate to contact me through the form below.
                             </p>
                         </div>

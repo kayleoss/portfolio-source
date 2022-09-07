@@ -8,8 +8,8 @@ class Art extends React.Component {
             <section className="p-b" id="art">
                 <div className="container">
                     <div className="text-center">
-                        <h1 className="title-h1 p-t">Art for sale</h1>
-                        <p className="description-p">Buy a full-resolution digital copy of the  artwork</p>
+                        <h1 className="title-h1 p-t">Artwork</h1>
+                        <small className="description-p">All prices in CAD. Shipping to Canada only</small>
                     </div>
                     
                     <div className="row">

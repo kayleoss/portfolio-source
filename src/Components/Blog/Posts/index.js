@@ -26,7 +26,7 @@ export default class Posts extends React.Component {
                         return (<Post {...post} key={i} />)
                     })
                 }
-                <div className="text-center m-3 w-100"><p>The end. Have a strawberry <span role="img" aria-label="strawberry icon">🍓</span></p></div>
+                <div className="text-center m-3 w-100"><p>The end. <span role="img" aria-label="strawberry icon">🍓</span></p></div>
             </div>
         )
     }

@@ -98,32 +98,54 @@ export const artData = [
         dimensions: '4000 x 4000',
         format: 'JPG',
         purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-        price: '$5.00'
+        price: '$5.00',
+        colSize: "col-sm-4"
+    },
+    {
+        title: "Dakota",
+        description: 'Digital sketch printed on high quality Fujifilm crystal archive photo paper',
+        img: 'Dakota.jpg',
+        dimensions: '11" x 14"',
+        format: 'High-quality print',
+        purchaseLink: 'https://buy.stripe.com/fZe6pRc7VaKRd1K4gn',
+        price: '$99.99',
+        physical: true,
+        colSize: "col-sm-6"
+    },
+    {
+        title: "Jo",
+        description: 'Red-headed force of nature. Digital painting',
+        img: 'jo.jpg',
+        dimensions: '2763 x 2530',
+        format: 'JPG',
+        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
+        price: '$15.00',
+        colSize: "col-sm-6"
     },
     {
         title: "Marsha",
-        description: 'Mayor of Christopher Street. Digital sketch',
-        img: 'marsha.jpg',
-        dimensions: '2744 x 3886',
-        format: 'JPG',
+        description: 'Distorted back profile. Digital sketch printed on high quality Fujifilm crystal archive photo paper',
+        img: 'Marsha.jpg',
+        dimensions: '11" x 14"',
+        format: 'High-quality print',
         purchaseLink: 'https://buy.stripe.com/fZe4hJ2xl7yFgdW8wA',
-        price: '$5.00'
-    },
-    {
-        blank: true
-    },
-    {
-        blank: true
+        price: '$159.99',
+        physical: true,
+        colSize: "col-sm-6"
     },
     
     {
+        blank: true
+    },
+    {
         title: "Pipa Player",
-        description: 'Child playing the pipa at the dragon festival. Digital painting',
+        description: 'Pipa player at the dragon festival. Digital painting',
         img: 'festival1.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
         purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
-        price: '$15.00'
+        price: '$15.00',
+        colSize: "col-sm-6"
     },
     // {
     //     title: "Protagonist 1",
@@ -141,15 +163,7 @@ export const artData = [
     //     format: 'JPG',
     //     link: 'webtoon1.jpg'
     // },
-    {
-        title: "Jo",
-        description: 'Red-headed force of nature. Digital painting',
-        img: 'jo.jpg',
-        dimensions: '2763 x 2530',
-        format: 'JPG',
-        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
-        price: '$15.00'
-    },
+    
     // {
     //     title: "Manifestation",
     //     description: 'A person manifests living with their fish. Digital drawing',
