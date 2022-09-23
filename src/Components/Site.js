@@ -2,8 +2,9 @@ import React from 'react';
 
 const Site = (props) => {
     const imgClass = props.imgClass ? props.imgClass : "";
+    const colClass = props.colClass ? props.colClass: "col-sm-6 p-t"
     return (
-        <div className="col-sm-6 p-t">
+        <div className={colClass}>
             {props.href ?
                 <a href={props.href} target="_blank" rel="noopener noreferrer">
                     <div className="overlay" onMouseOver={props.mouseOverAction} onMouseLeave={props.mouseLeaveAction}>

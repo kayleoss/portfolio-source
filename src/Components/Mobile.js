@@ -17,6 +17,17 @@ class Mobile extends React.Component {
                 <div className="row">
                 {
                   mobileData.map(item => {
+                    if (mobileData.length < 2) {
+                      return (
+                        <Site
+                          {...item}
+                          key={mobileData.indexOf(item)}
+                          mouseOverAction={this.handleHover}
+                          mouseLeaveAction={this.handleLeave}
+                          colClass="col-sm-6 offset-md-3 p-t"
+                        />
+                      )
+                    } else {
                       return (
                         <Site 
                           {...item}
@@ -25,6 +36,8 @@ class Mobile extends React.Component {
                           mouseLeaveAction={this.handleLeave}
                         />
                       )
+                    }
+                      
                   })
                 }
                 </div>

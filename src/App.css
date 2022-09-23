@@ -22,7 +22,6 @@ body {
 .label-h1 {
   font-weight: 400;
   color: rgb(113, 76, 150);
-  font-size: 1.8em;
 }
 .main-p {
   color: rgba(255, 255, 255, 0.747);
@@ -95,6 +94,21 @@ h1, h2, h3, h4 {
 .npe {
   pointer-events: none;
 }
+.learn-more-block a.learn-more-img {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+.h-200 {
+  height: 200px;
+}
+a.learn-more-img img {
+  width: 100%;
+}
+.bg-purple {
+  background: #f9f5fc;
+}
+
 
 /* buttons */
 .vector-button {
@@ -132,6 +146,10 @@ h1, h2, h3, h4 {
   position: absolute;
   left: 20px;
   top: 20px; 
+}
+.artTileImg:hover {
+    box-shadow: 10px 10px 45px rgb(63, 53, 73);
+    transition: .5s ease;
 }
 
 /* sections */
@@ -257,12 +275,6 @@ a.legal-text:hover {
   }
   #what-i-do .description-h {
     margin-bottom: 30px;
-  }
-  #projects{
-    padding-top: 10%;
-  }
-  #projects .col-sm-6{
-    margin-top: 10%;
   }
   #footer .main-h1{
     display:none;

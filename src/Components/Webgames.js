@@ -17,6 +17,17 @@ export default class Webgames extends React.Component{
           <div className="row">
           {
                   webGamesData.map(item => {
+                    if (webGamesData.length < 2) {
+                      return (
+                        <Site
+                          {...item}
+                          key={webGamesData.indexOf(item)}
+                          mouseOverAction={this.handleHover}
+                          mouseLeaveAction={this.handleLeave}
+                          colClass="col-sm-6 offset-md-3 p-t"
+                        />
+                      )
+                    } else {
                       return (
                         <Site
                           {...item}
@@ -25,6 +36,8 @@ export default class Webgames extends React.Component{
                           mouseLeaveAction={this.handleLeave}
                         />
                       )
+                    }
+                      
                   })
                 }
           </div>

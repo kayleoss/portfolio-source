@@ -2,7 +2,7 @@ import React from 'react';
 import Skills from './Skills';
 import SkillsText from './SkillsText';
 
-export default class Services extends React.Component{ 
+export default class Services extends React.Component {
     state = {
       toolbox: false
     }
@@ -17,7 +17,7 @@ export default class Services extends React.Component{
             <div><p className="description-p text-center wow fadeInDown">Here's What's In My Toolbox:</p><SkillsText /></div> : 
             <div><p className="description-p text-center wow fadeInDown">What I Can Do For Your Business:</p><Skills /></div> 
           }
-          <div className="text-center m-s-t" style={{width: '100%'}}>
+          <div className="text-center mt-5 d-none d-md-block" style={{width: '100%'}}>
             <a className="vector-button-2" onClick={this.handleClick}>
               {this.state.toolbox ? 
               <img style={{width: '100%'}} src={require('../assets/cta-button-katie.png')} alt="Click this button to see what Katie Liu can do for you!"/> : 

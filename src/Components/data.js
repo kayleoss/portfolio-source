@@ -15,12 +15,19 @@ export const websiteData = [
         imgAlt: "Katie Liu Worked On Mavencare's Sunlife Landing Page"
     },
     {
-        href: "https://mavencare.com/senior-care-massachusetts",
-        title: "Mavencare Senior Care",
-        description: "Following the product designer's prototypes, I built Mavencare's new Boston, Toronto, and NYC landers using HTML, CSS, JS, Node, and handlebars.",
-        imgSrc: "mavencare.png",
-        imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
+        href: "https://instastoryviewer.vercel.app/",
+        title: "InstaStoryViewer",
+        description: "This app allows users to view and download instagram stories anonymously. Made with VueJS.",
+        imgSrc: "instastoryviewer.png",
+        imgAlt: "InstaStory Viewer preview image"
     },
+    // {
+    //     href: "https://mavencare.com/senior-care-massachusetts",
+    //     title: "Mavencare Senior Care",
+    //     description: "Following the product designer's prototypes, I built Mavencare's new Boston, Toronto, and NYC landers using HTML, CSS, JS, Node, and handlebars.",
+    //     imgSrc: "mavencare.png",
+    //     imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
+    // },
     {
         href: "http://paintballnation.ca/",
         title: "Paintball Nation",
@@ -38,30 +45,16 @@ export const webGamesData = [
         imgSrc: "covercensored.png",
         imgAlt: "Meeting Devon cover image"
     },
-    {
-        href: "https://github.com/kayleoss/conquerkill",
-        title: "ConquerKill",
-        description: "<span class='font-weight-bold text-danger'>This is legacy game has been depreciated, however the code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
-        imgSrc: "conquer.png",
-        imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
-    }
+    // {
+    //     href: "https://github.com/kayleoss/conquerkill",
+    //     title: "ConquerKill",
+    //     description: "<span class='font-weight-bold text-danger'>This is legacy game has been depreciated, however the code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
+    //     imgSrc: "conquer.png",
+    //     imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
+    // }
 ];
 
 export const webAppData = [
-    {
-        href: "https://instastoryviewer.vercel.app/",
-        title: "InstaStoryViewer",
-        description: "This app allows users to view and download instagram stories anonymously. Made with VueJS.",
-        imgSrc: "instastoryviewer.png",
-        imgAlt: "InstaStory Viewer preview image"
-    },
-    {
-        href: "https://tech-buy.vercel.app/",
-        title: "TechBuy",
-        description: "This react app utilizes Best Buy's API to allow users to find great deals on tech products.",
-        imgSrc: "techbuy2.png",
-        imgAlt: "TechBuy preview image"
-    },
     {
         warningText: "Private internal application. Not demoable",
         title: "Neshama Receipt Generator",
@@ -79,64 +72,20 @@ export const mobileData = [
         imgSrc: "hackTPS.png",
         imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",
         imgClass: "static-height-img"
-    },
-    {
-        href: "https://github.com/kayleoss/post-it",
-        title: "Post-It",
-        description: "Post-It is a mobile app for bug reporting & management. It uses a react native front end with a node & express backend, with mongoDB as the database.",
-        imgSrc: "post-it.jpg",
-        imgAlt: "post-it mobile app image preview.",
-        imgClass: "static-height-img"
     }
 ]
 
 export const artData = [
-    {
-        title: "The Kick",
-        description: 'Demonstrative kick. Digital sketch',
-        img: 'thekick.jpg',
-        dimensions: '4000 x 4000',
-        format: 'JPG',
-        purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-        price: '$5.00',
-        colSize: "col-sm-4"
-    },
-    {
-        title: "Dakota",
-        description: 'Digital sketch printed on high quality Fujifilm crystal archive photo paper',
-        img: 'Dakota.jpg',
-        dimensions: '11" x 14"',
-        format: 'High-quality print',
-        purchaseLink: 'https://buy.stripe.com/fZe6pRc7VaKRd1K4gn',
-        price: '$99.99',
-        physical: true,
-        colSize: "col-sm-6"
-    },
-    {
-        title: "Jo",
-        description: 'Red-headed force of nature. Digital painting',
-        img: 'jo.jpg',
-        dimensions: '2763 x 2530',
-        format: 'JPG',
-        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
-        price: '$15.00',
-        colSize: "col-sm-6"
-    },
-    {
-        title: "Marsha",
-        description: 'Distorted back profile. Digital sketch printed on high quality Fujifilm crystal archive photo paper',
-        img: 'Marsha.jpg',
-        dimensions: '11" x 14"',
-        format: 'High-quality print',
-        purchaseLink: 'https://buy.stripe.com/fZe4hJ2xl7yFgdW8wA',
-        price: '$159.99',
-        physical: true,
-        colSize: "col-sm-6"
-    },
-    
-    {
-        blank: true
-    },
+    // {
+    //     title: "The Kick",
+    //     description: 'Demonstrative kick. Digital sketch',
+    //     img: 'thekick.jpg',
+    //     dimensions: '4000 x 4000',
+    //     format: 'JPG',
+    //     purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
+    //     price: '$5.00',
+    //     colSize: "col-sm-4"
+    // },
     {
         title: "Pipa Player",
         description: 'Pipa player at the dragon festival. Digital painting',
@@ -145,53 +94,37 @@ export const artData = [
         format: 'JPG',
         purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
         price: '$15.00',
-        colSize: "col-sm-6"
+        colSize: "col-sm-6 px-3"
     },
-    // {
-    //     title: "Protagonist 1",
-    //     description: 'Artwork from Meeting Devon, Scene 2. Digital drawing',
-    //     img: 'protag1.jpg',
-    //     dimensions: '3713 x 1763',
-    //     format: 'JPG',
-    //     link: 'protag2.jpg'
-    // },
-    // {
-    //     title: "Fly me to the moon",
-    //     description: "One page comic about a guy who dreams of flying to the moon, using lyrics only from Frank Sinatria's Fly Me To The Moon.",
-    //     img: 'webtoon1.png',
-    //     dimensions: '1600 x 12000',
-    //     format: 'JPG',
-    //     link: 'webtoon1.jpg'
-    // },
+    {
+        title: "Rockstar Tears",
+        img: 'RockStarTears.jpg',
+        colSize: "col-sm-6 px-3"
+    },
     
-    // {
-    //     title: "Manifestation",
-    //     description: 'A person manifests living with their fish. Digital drawing',
-    //     img: 'manifestation.jpg',
-    //     dimensions: '4000 x 4000',
-    //     format: 'JPG',
-    //     purchaseLink: 'https://buy.stripe.com/cN25lN9ZN4mtbXG4gi',
-    //     price: '$5.00'
-    // },
-    // {
-    //     title: "The Protagonists",
-    //     description: 'Bonus artwork from my game "Meeting Devon". Digital drawing',
-    //     img: 'art1.jpg',
-    //     dimensions: '7200 x 6000',
-    //     format: 'JPG',
-    //     purchaseLink: 'https://buy.stripe.com/6oEeWnfk77yF3ra5kk',
-    //     price: '$5.00'
-    // },
-    // {
-    //     blank: true
-    // },
-    // {
-    //     title: "The Protagonists 2",
-    //     description: 'Artwork from "Meeting Devon", Scene 3. Digital drawing',
-    //     img: 'together2.jpg',
-    //     dimensions: '2281 x 1257',
-    //     format: 'Animated PNG',
-    //     purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-    //     price: '$15.00'
-    // },
+    {
+        title: "Elf",
+        img: 'elf.jpg',
+        colSize: "col-sm-8 px-3 offset-md-2"
+    },
+     {
+        title: "Jo",
+        description: 'Red-headed force of nature. Digital painting printed on Fujifilm crystal archive paper',
+        img: 'jo.jpg',
+        dimensions: '10" x 10"',
+        format: 'High-quality print',
+        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
+        price: '$99.99',
+        physical: true,
+        colSize: "col-sm-6 px-3"
+    },
+    
+    {
+        title: "vintage",
+        img: 'vintage.jpg',
+        colSize: "col-sm-6 px-3"
+    },
+    
+    
+    
 ]
