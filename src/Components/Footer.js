@@ -29,7 +29,7 @@ const Footer = () => (
       </div>
     </footer>
     <section id="copyright">
-      <p>Katie &copy; All Rights Reserved {new Date().getFullYear()}</p>
+      <p>Katie &copy; All Rights Reserved</p>
     </section>
   </div>
 )

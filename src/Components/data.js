@@ -105,7 +105,7 @@ export const artData = [
     {
         title: "Elf",
         img: 'elf.jpg',
-        colSize: "col-sm-8 px-3 offset-md-2"
+        colSize: "col-sm-6 px-3"
     },
      {
         title: "Jo",
@@ -119,11 +119,11 @@ export const artData = [
         colSize: "col-sm-6 px-3"
     },
     
-    {
-        title: "vintage",
-        img: 'vintage.jpg',
-        colSize: "col-sm-6 px-3"
-    },
+    // {
+    //     title: "vintage",
+    //     img: 'vintage.jpg',
+    //     colSize: "col-sm-6 px-3"
+    // },
     
     
     
