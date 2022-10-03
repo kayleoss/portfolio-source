@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 import Blog from './Components/Blog';
 import Main from './Components/Main';
 import Payment from './Components/Payment';
+import Art from './Components/Art';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
               <Route exact path="/" component={Main} />
               <Route path="/blog" component={Blog} />
               <Route path="/payment" component={Payment} />
+              <Route path="/art" component={Art} />
               <Footer />
           </div>
       </div>

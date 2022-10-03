@@ -88,43 +88,37 @@ export const artData = [
     // },
     {
         title: "Pipa Player",
-        description: 'Pipa player at the dragon festival. Digital painting',
+        description: 'I digitally painted this artwork referencing the 2022 dragon festival when a young girl played the pipa on stage.',
         img: 'festival1.jpg',
         dimensions: '4000 x 4000',
         format: 'JPG',
         purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
         price: '$15.00',
-        colSize: "col-sm-6 px-3"
+        colSize: "col-sm-4 px-3"
     },
     {
-        title: "Rockstar Tears",
+        title: "Tears from a Rockstar",
         img: 'RockStarTears.jpg',
-        colSize: "col-sm-6 px-3"
+        description: "I took inspiration from Prince and Michael Jackson to create this digital drawing. The idea was to show vulnerability and humanity in an idol figure.",
+        colSize: "col-sm-4 px-3"
     },
     
     {
-        title: "Elf",
+        title: "Elf's guardian",
         img: 'elf.jpg',
+        description: "An elf looks at the viewer with a second pair of eyes behind her. I emphasized eyes in this painting, hoping they'd tell a story on their own.",
         colSize: "col-sm-6 px-3"
     },
-     {
-        title: "Jo",
-        description: 'Red-headed force of nature. Digital painting printed on Fujifilm crystal archive paper',
-        img: 'jo.jpg',
-        dimensions: '10" x 10"',
-        format: 'High-quality print',
-        purchaseLink:'https://buy.stripe.com/9AQ9C39ZNdX37Hq8wC',
-        price: '$99.99',
-        physical: true,
+    {
+        title: "This ordeal",
+        img: 'vintage.jpg',
+        description: "I paid close attention to shadow and light while painting this piece. With the positioning in this painting, the light source wouldn't hit the woman on the lower right.",
         colSize: "col-sm-6 px-3"
     },
-    
-    // {
-    //     title: "vintage",
-    //     img: 'vintage.jpg',
-    //     colSize: "col-sm-6 px-3"
-    // },
-    
-    
-    
+    {
+        title: "The Maid",
+        img: 'themaid.jpg',
+        description: "For this painting, my focus was on body autonomy and positioning.",
+        colSize: "col-sm-6 px-3"
+    },
 ]

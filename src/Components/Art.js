@@ -1,6 +1,7 @@
 import React from 'react';
 import {artData} from './data.js';
 import ArtTile from './ArtTile';
+import Topbar from './Blog/Topbar/index.js';
 
 class Art extends React.Component {
 
@@ -28,19 +29,19 @@ class Art extends React.Component {
     
     render() {
         return (
-            <section className="p-b" id="art">
-                <div className="container">
-                    <div className="row">
-                        {artData.map(art => {
-                            return(
-                                <ArtTile {...art} />
-                            )
-                        })}
-                        
+            <>
+                <Topbar title="Art" />
+                <section className="p-b" id="top">
+                    <div className="container">
+                            {artData.map(art => {
+                                return(
+                                    <ArtTile {...art} key={artData.indexOf(art)} />
+                                )
+                            })}
                     </div>
-                    
-                </div>
-            </section>
+                </section>
+                <a href="#top" aria-label="Back to top" className={"rounded-top p-2 main-p text-center projects-bg text-light fixed-bottom"}>&#8679;</a>
+            </>
         )
     }
 }
