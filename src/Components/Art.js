@@ -33,14 +33,16 @@ class Art extends React.Component {
                 <Topbar title="Art" />
                 <section className="p-b" id="top">
                     <div className="container">
+                        <div className="row">
                             {artData.map(art => {
                                 return(
                                     <ArtTile {...art} key={artData.indexOf(art)} />
                                 )
                             })}
+                        </div>
                     </div>
                 </section>
-                <a href="#top" aria-label="Back to top" className={"rounded-top p-2 main-p text-center projects-bg text-light fixed-bottom"}>&#8679;</a>
+                {/* <a href="#top" aria-label="Back to top" className={"rounded-top p-2 main-p text-center projects-bg text-light fixed-bottom"}>&#8679;</a> */}
             </>
         )
     }

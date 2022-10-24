@@ -76,16 +76,6 @@ export const mobileData = [
 ]
 
 export const artData = [
-    // {
-    //     title: "The Kick",
-    //     description: 'Demonstrative kick. Digital sketch',
-    //     img: 'thekick.jpg',
-    //     dimensions: '4000 x 4000',
-    //     format: 'JPG',
-    //     purchaseLink: 'https://buy.stripe.com/fZebKbdbZ5qxbXG28b',
-    //     price: '$5.00',
-    //     colSize: "col-sm-4"
-    // },
     {
         title: "Pipa Player",
         description: 'I digitally painted this artwork referencing the 2022 dragon festival when a young girl played the pipa on stage.',
@@ -94,31 +84,31 @@ export const artData = [
         format: 'JPG',
         purchaseLink:'https://buy.stripe.com/00g5lNb3R2el3ra9AF',
         price: '$15.00',
-        colSize: "col-sm-4 px-3"
+        colSize: "col-sm-6 px-3"
     },
+    // {
+    //     title: "Tears from a Rockstar",
+    //     img: 'RockStarTears.jpg',
+    //     description: "I took inspiration from Prince and Michael Jackson to create this digital drawing. The idea was to show vulnerability and humanity in an idol figure.",
+    //     colSize: "col-sm-4 px-3"
+    // },
     {
-        title: "Tears from a Rockstar",
-        img: 'RockStarTears.jpg',
-        description: "I took inspiration from Prince and Michael Jackson to create this digital drawing. The idea was to show vulnerability and humanity in an idol figure.",
-        colSize: "col-sm-4 px-3"
-    },
-    
-    {
-        title: "Elf's guardian",
-        img: 'elf.jpg',
+        title: "Jo",
+        img: 'jo.jpg',
         description: "An elf looks at the viewer with a second pair of eyes behind her. I emphasized eyes in this painting, hoping they'd tell a story on their own.",
         colSize: "col-sm-6 px-3"
     },
     {
-        title: "This ordeal",
-        img: 'vintage.jpg',
+        title: "Fan girl",
+        img: 'fangirl.jpg',
         description: "I paid close attention to shadow and light while painting this piece. With the positioning in this painting, the light source wouldn't hit the woman on the lower right.",
-        colSize: "col-sm-6 px-3"
+        colSize: "col-sm-8 px-3"
     },
     {
-        title: "The Maid",
-        img: 'themaid.jpg',
-        description: "For this painting, my focus was on body autonomy and positioning.",
-        colSize: "col-sm-6 px-3"
+        title: "Elf's guardian",
+        img: 'elf.jpg',
+        description: "An elf looks at the viewer with a second pair of eyes behind her. I emphasized eyes in this painting, hoping they'd tell a story on their own.",
+        colSize: "col-sm-4 px-3"
     },
+    
 ]
