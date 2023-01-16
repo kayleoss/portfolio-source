@@ -9,7 +9,6 @@ const Main = () => (
       <Header />
       <Services />
       <Projects />
-      <LearnMore />
     </div>
 )
 

@@ -21,7 +21,7 @@ export default class Blog extends React.Component {
     render() {
         return (
             <section id="top">
-                <Topbar title="thoughts" />
+                <Topbar title="Katie's Tech Blog" />
                 <div className="container">
                     <Posts />
                 </div>

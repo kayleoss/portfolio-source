@@ -39,19 +39,19 @@ export const websiteData = [
 
 export const webGamesData = [
     {
+        href: "https://github.com/kayleoss/conquerkill",
+        title: "ConquerKill",
+        description: "<span class='font-weight-bold text-danger'>Depreciated and unplayable as of 2018. Code viewable on Github.</span> Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
+        imgSrc: "conquer.png",
+        imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
+    },
+    {
         href: "https://meetingdevon.vercel.app/",
-        title: "Vol 1: Meeting Devon",
-        description: "A visual novel game. Made with VueJS, Procreate, Garageband.",
+        title: "Meeting Devon",
+        description: "NSFW LGBTQ visual novel web game. Made with VueJS",
         imgSrc: "covercensored.png",
         imgAlt: "Meeting Devon cover image"
-    },
-    // {
-    //     href: "https://github.com/kayleoss/conquerkill",
-    //     title: "ConquerKill",
-    //     description: "<span class='font-weight-bold text-danger'>This is legacy game has been depreciated, however the code is still viewable on my github</span>. Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
-    //     imgSrc: "conquer.png",
-    //     imgAlt: "ConquerKill image thumbnail preview of the game, showing player cards and the option to fight other players online."
-    // }
+    }
 ];
 
 export const webAppData = [
@@ -67,7 +67,7 @@ export const webAppData = [
 export const mobileData = [
     {
         href: "https://github.com/kayleoss/tpsFrontEnd",
-        title: "ResoTPS Front End",
+        title: "ResoTPS",
         description: "ResoTPS is a react native mobile app designed to help the Toronto police filter and automate requests and inquiries. It includes live chat with a police service specialist, situational tips and resources, automated forms for complaints, and more",
         imgSrc: "hackTPS.png",
         imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",

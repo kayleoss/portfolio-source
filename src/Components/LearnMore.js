@@ -38,9 +38,9 @@ class LearnMore extends React.Component {
                         <div className="col-sm-4 mt-5">
                             <div className="col-sm-12  shadow border learn-more-block p-0">
                                 <div className="text-center h-200">
-                                    <Link to="/art" target="_blank" className="learn-more-img h-200"><img src={require("../assets/festival1.jpg")} className="w-100" alt="Learn more about me by reading my blog"/></Link>
+                                    <a href="https://www.linkedin.com/in/katie-duo-l-26046a110/" target="_blank" className="learn-more-img h-200"><img src={require("../assets/fangirl.jpg")} className="w-100" alt="Learn more about me by reading my blog"/></a>
                                 </div>
-                                <p className="description-p p-3 mb-0 bg-purple"><span className="label-h1">Art</span><br />As a hobby I enjoy practicing painting and <Link to="/art" target="_blank">art</Link> which helps me with observation.</p>
+                                <p className="description-p p-3 mb-0 bg-purple"><span className="label-h1">LinkedIn</span><br />See my professional past experience and skillsets on my <a href="https://www.linkedin.com/in/katie-duo-l-26046a110/" target="_blank">Linkedin</a> profile.</p>
                             </div>
                         </div>
 
