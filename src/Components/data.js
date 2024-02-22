@@ -8,6 +8,20 @@ export const websiteData = [
         type: 'website'
     },
     {
+        href: "https://mavencare.com/senior-care-massachusetts",
+        title: "Mavencare Senior Care",
+        description: "Following the product designer's prototypes, I built Mavencare's Boston, Toronto, and NYC landing pages using HTML, CSS, JS, Node, and handlebars.",
+        imgSrc: "mavencare1.gif",
+        imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
+    },
+    {
+        href: "https://mfuphotography.vercel.app/",
+        title: "Molly Fu Photography",
+        description: "A simple photography website for Molly Fu. Separately built backend server and database for client to upload their own image data. React, Node, Express, MongoDB",
+        imgSrc: "mf.gif",
+        imgAlt: "Molly Fu photography"
+    },
+    {
         href: "https://mavencare.com/sunlife-care",
         title: "Mavencare & Sun Life",
         description: "I built Mavencare's Sun Life and Referral landing pages using HTML, CSS, JavaScript, Handlebars, Node, and implemented AJAX form submission that creates a lead in the company-wide portal.",
@@ -15,25 +29,18 @@ export const websiteData = [
         imgAlt: "Katie Liu Worked On Mavencare's Sunlife Landing Page"
     },
     {
-        href: "https://instastoryviewer.vercel.app/",
-        title: "InstaStoryViewer",
-        description: "This app allows users to view and download instagram stories anonymously. Made with VueJS.",
-        imgSrc: "instastoryviewer.png",
-        imgAlt: "InstaStory Viewer preview image"
-    },
-    // {
-    //     href: "https://mavencare.com/senior-care-massachusetts",
-    //     title: "Mavencare Senior Care",
-    //     description: "Following the product designer's prototypes, I built Mavencare's new Boston, Toronto, and NYC landers using HTML, CSS, JS, Node, and handlebars.",
-    //     imgSrc: "mavencare.png",
-    //     imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
-    // },
-    {
         href: "http://paintballnation.ca/",
         title: "Paintball Nation",
         description: "I customized Paintball Nation's existing WordPress theme, fixed dead links, worked on responsiveness, and rearranged/updated content.",
         imgSrc: "pbn.png",
         imgAlt: "Katie Liu Worked On Paintball Nation's WordPress Theme"
+    },
+    {
+        href: "https://tech-buy-git-master-kayleoss.vercel.app/",
+        title: "Tech Buy",
+        description: "An experimental site for US citizens to look for and snag the best tech deals from bestbuy. ",
+        imgSrc: "techbuy.png",
+        imgAlt: "Katie worked on Tech Buy"
     }
 ];
 
@@ -48,7 +55,7 @@ export const webGamesData = [
     {
         href: "https://meetingdevon.vercel.app/",
         title: "Meeting Devon",
-        description: "NSFW LGBTQ visual novel web game. Made with VueJS",
+        description: "Short visual novel RPG web game demo for itch.io players. Made with VueJS",
         imgSrc: "covercensored.png",
         imgAlt: "Meeting Devon cover image"
     }
