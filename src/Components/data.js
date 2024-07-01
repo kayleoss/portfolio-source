@@ -46,6 +46,13 @@ export const websiteData = [
 
 export const webGamesData = [
     {
+        href: "http://katieliu.ca/musicgame",
+        title: "Rhythm Burst",
+        description: "Rhythm Burst is a web game that analyzes sound frequencies to prompt you for keypresses at the right time. Coupled with a node.js express backend and real-time firebase data storage. Test your hand-eye coordination in this addictive game.",
+        imgSrc: "rhythmburst.gif",
+        imgAlt: "Rhythm burst image thumbnail of gameplay."
+    },
+    {
         href: "https://github.com/kayleoss/conquerkill",
         title: "ConquerKill",
         description: "<span class='font-weight-bold text-danger'>Depreciated and unplayable as of 2018. Code viewable on Github.</span> Battle other players, earn coins, buy & equip weapons, and train your stats.  Built in EJS, CSS, JS, & Materialize framework.",
