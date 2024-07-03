@@ -4,9 +4,9 @@ const Site = (props) => {
     const imgClass = props.imgClass ? props.imgClass : "";
     const colClass = props.colClass ? props.colClass: "col-sm-6 p-t"
     return (
-        <div className={colClass + " mt-sm-5"}>
+        <div className={colClass + " mt-sm-5 wow bounceInUp"} data-wow-delay="1s" data-wow-duration="2s">
             {props.href ?
-            <div className="bg-white border-round light-shadow overflow-hide mt-sm-5">
+            <div className="bg-white border-round light-shadow overflow-hide ">
                 <a href={props.href} target="_blank" rel="noopener noreferrer">
                     <img className={"w-100 " + imgClass} src={require(`../assets/${props.imgSrc}`)} alt={props.imgAlt} />
                 </a>

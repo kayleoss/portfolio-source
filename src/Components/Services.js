@@ -7,6 +7,9 @@ export default class Services extends React.Component {
       toolbox: false
     }
     handleClick = () => {
+      if (window.innerWidth < 700) {
+        window.scrollTo(0,0)
+      }
       this.setState({toolbox: !this.state.toolbox});
     }
     render(){
@@ -17,7 +20,7 @@ export default class Services extends React.Component {
             <div><p className="description-p text-center">Some of the tools I use:</p><SkillsText /></div> : 
             <div><p className="description-p text-center">My professional experience:</p><Skills /></div> 
           }
-          <div className="text-center mt-3 d-none d-md-block" style={{width: '100%'}}>
+          <div className="text-center mt-3 d-block" style={{width: '100%'}}>
             <button type="button" className="vector-button light-shadow text-white" onClick={this.handleClick}>
               {this.state.toolbox ? 
               "See my experience" : 

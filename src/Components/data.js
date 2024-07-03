@@ -47,7 +47,7 @@ export const websiteData = [
         description: "Rhythm Burst is a web game that analyzes sound frequencies to prompt you for keypresses at the right time. Coupled with a node.js express backend and real-time firebase data storage. Test your hand-eye coordination in this addictive game.",
         imgSrc: "rhythmburst.gif",
         imgAlt: "Rhythm burst image thumbnail of gameplay.",
-         colClass: "col-sm-8 m-t-l"
+         colClass: "col-sm-8 m-t-l mb-5"
     },
     {
         href: "https://meetingdevon.vercel.app/",
@@ -55,7 +55,7 @@ export const websiteData = [
         description: "Short visual novel RPG web game demo for itch.io players. Made with VueJS",
         imgSrc: "covercensored.png",
         imgAlt: "Meeting Devon cover image",
-        colClass: "col-sm-8 offset-md-4 m-t-l"
+        colClass: "col-sm-6 mt-md-0 "
     },
     {
         href: "https://github.com/kayleoss/tpsFrontEnd",
@@ -64,7 +64,7 @@ export const websiteData = [
         imgSrc: "hackTPS.png",
         imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",
         imgClass: " static-height-img",
-        colClass: "col-sm-8 mt-5 mb-5"
+        colClass: "col-sm-6 mt-5 "
     }
 ];
 

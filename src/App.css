@@ -238,6 +238,12 @@ a.legal-text:hover {
   #header{
     background: url('./assets/footer.png');
   }
+  .help-card {
+    margin-top: -50px;
+    background: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius:  25px;
+  }
   .topbar-absolute {
     position: relative;
     top: auto;
