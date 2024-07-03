@@ -2,10 +2,10 @@ import React from 'react';
 
 const SkillsText = () => (
     <div className="container">
-      <div className="row p-t">
+      <div className="row pt-3">
         <div className="col-sm-4">
           <h2 className="label-h1">Automation:</h2>
-          <ul>
+          <ul className="jobdesc-list">
             <li>Selenium Webdriver</li>
             <li>Robot Framework</li>
             <li>Windows Task Scheduler</li>
@@ -13,7 +13,7 @@ const SkillsText = () => (
         </div>
         <div className="col-sm-4">
           <h2 className="label-h1">Development:</h2>
-          <ul>
+          <ul className="jobdesc-list">
             <li>HTML5</li>
             <li>CSS3/SASS</li>
             <li>JavaScript, jQuery, AJAX</li>
@@ -26,23 +26,27 @@ const SkillsText = () => (
         </div>
         <div className="col-sm-4">
           <h2 className="label-h1">Tools:</h2>
-          <ul>
+          <ul className="jobdesc-list">
             <li>Git</li>
             <li>WordPress</li>
             <li>Github</li>
             <li>Bitbucket</li>
             <li>Azure Devops</li>
+            <li>Jira</li>
+            <li>Office 365</li>
+            <p>Power Platform</p>
           </ul>
         </div>
       </div>
-      <div className="row p-t">
+      <div className="row">
         <div className="col-sm-4">
           <h2 className="label-h1">Databases:</h2>
-          <ul>
+          <ul className="jobdesc-list">
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>PostgreSQL</li>
             <li>Microsoft Access</li>
+            <li>Microsoft Dataverse</li>
           </ul>
         </div>
         {/* <div className="col-sm-4">
@@ -56,12 +60,13 @@ const SkillsText = () => (
           </ul>
         </div> */}
         <div className="col-sm-4">
-          <h2 className="label-h1">UI/UX Design:</h2>
-          <ul>
+          <h2 className="label-h1">Design:</h2>
+          <ul className="jobdesc-list">
             <li>Sketch App</li>
             <li>Adobe Illustrator</li>
             <li>Adobe Photoshop</li>
-            <li>Adobe Lightroom</li>
+            <li>Adobe inDesign</li>
+            <li>Procreate</li>
             <li>inVision</li>
           </ul>
         </div>

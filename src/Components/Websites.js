@@ -4,30 +4,22 @@ import {websiteData} from './data.js';
 
 export default class Websites extends React.Component{
 
-    handleHover = (e) => {
-      e.target.style.opacity = 1;
-    }
-    handleLeave = (e) => {
-      e.target.style.opacity = 0;
-    }
-
     render(){
         return (
-            <div className="container">
-              <div className="row">
+            <div className="container mb-5">
+              <div className="row mb-5">
                 {
                   websiteData.map(item => {
                       return (
                         <Site
                           key={websiteData.indexOf(item)}
                           {...item}
-                          mouseOverAction={this.handleHover}
-                          mouseLeaveAction={this.handleLeave}
                         />
                       )
                   })
                 }
               </div>
+              <p className="text-center mb-5">More projects available to view on <a href='https://github.ca/kayleoss'>github</a><br/> Check out my <a href='/blog'>blog</a></p>
             </div>
         )
     }

@@ -3,17 +3,31 @@ import React from 'react';
 const Skills = () => (
     <div className="container">
       <div className="row wow fadeIn">
-          <div className="col-sm-4 px-3">
-            <img src={require('../assets/design-icon-2.png')} style={{width:'100%'}} alt="Katie Liu can help with design, prototyping, and custom artwork!"/>
-            <h2 className="description-h m-t text-center">UI/UX Design &amp; Prototyping</h2>
-          </div>
-          <div className="col-sm-4 px-3">
-            <img src={require('../assets/code-icon-2.png')} style={{width:'100%'}} alt="Katie Liu can help with development, coding, hosting and domain setup!"/>
-            <h2 className=" description-h m-t text-center">Full Stack Web Development</h2>
-          </div>
-          <div className="col-sm-4 px-3">
-            <img src={require('../assets/marketing-icon-2.png')} style={{width:'100%'}} alt="Katie Liu can help with development, coding, hosting and domain setup!"/>
-            <h2 className=" description-h m-t text-center">Digital Marketing &amp; Product Management</h2>
+          <div className="col-sm-12">
+            <div>
+              <h3 className="description-h mt-3">Application Developer - National Defence</h3>
+              <ul className="jobdesc-list">
+                <li>Fullstack development on multiple user-facing apps</li>
+                <li>Creation of accessible, mobile responsive, reusable components</li>
+                <li>Writing scripts to automate tasks, scrape html, and more</li>
+                <li>Setting up automated pipelines for Azure Devops</li>
+                <li>Conducting code reviews for peers</li>
+                <li>Power Apps development</li>
+              </ul>
+            </div>
+            <hr/>
+            <div>
+              <h3 className="description-h mt-3">QA Developer - BMO Financial Group</h3>
+              <ul className="jobdesc-list">
+                <li>Develop core product pages, campaigns, special offers</li>
+                <li>Develop online credit card applications with form validation and accessibility</li>
+                <li>Develop mortgages/rewards/air miles calculators and their formulas </li>
+                <li>Develop automation scripts for quality assurance testing</li>
+                <li>Conducting code reviews for peers</li>
+              </ul>
+            </div>
+            
+            <p className="jobdesc-list text-center">See more on <a href="https://www.linkedin.com/in/katie-duo-l-26046a110/" target="_blank">LinkedIn</a></p>
           </div>
       </div>
     </div>

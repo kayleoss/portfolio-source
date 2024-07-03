@@ -1,46 +1,70 @@
 export const websiteData = [
     {
+        href: "https://mfuphotography.vercel.app/",
+        title: "Molly Fu Photography",
+        description: "A simple photography website for Molly Fu. Separately built backend server and database for client to upload their own image data. React, Node, Express, MongoDB",
+        imgSrc: "mf.gif",
+        imgAlt: "Molly Fu photography",
+        colClass: "col-sm-6 p-t m-t-l"
+    },
+    {
         href: "http://neshamatherapy.com",
         title: "Neshama Therapy",
         description: "I built Neshama Therapy's new website, complete with a discussion hub and an e-commerce page using PHP, MySQL, HTML, CSS, SCSS, JS, and Ajax.",
         imgSrc: "neshama.png",
         imgAlt: "Neshama therapy's website image thumbnail",
-        type: 'website'
+        type: 'website',
+        colClass: "col-sm-6 mt-5"
     },
+    
     {
         href: "https://mavencare.com/senior-care-massachusetts",
         title: "Mavencare Senior Care",
         description: "Following the product designer's prototypes, I built Mavencare's Boston, Toronto, and NYC landing pages using HTML, CSS, JS, Node, and handlebars.",
         imgSrc: "mavencare1.gif",
-        imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages"
-    },
-    {
-        href: "https://mfuphotography.vercel.app/",
-        title: "Molly Fu Photography",
-        description: "A simple photography website for Molly Fu. Separately built backend server and database for client to upload their own image data. React, Node, Express, MongoDB",
-        imgSrc: "mf.gif",
-        imgAlt: "Molly Fu photography"
+        imgAlt: "Katie Liu Worked On Mavencare's New Landing Pages",
+        colClass: "col-sm-8 offset-md-2 m-t-l"
     },
     {
         href: "https://mavencare.com/sunlife-care",
         title: "Mavencare & Sun Life",
         description: "I built Mavencare's Sun Life and Referral landing pages using HTML, CSS, JavaScript, Handlebars, Node, and implemented AJAX form submission that creates a lead in the company-wide portal.",
         imgSrc: "mavencare-sunlife.png",
-        imgAlt: "Katie Liu Worked On Mavencare's Sunlife Landing Page"
+        imgAlt: "Katie Liu Worked On Mavencare's Sunlife Landing Page",
+        colClass: "col-sm-8 offset-md-4 m-t-l"
     },
     {
         href: "http://paintballnation.ca/",
         title: "Paintball Nation",
         description: "I customized Paintball Nation's existing WordPress theme, fixed dead links, worked on responsiveness, and rearranged/updated content.",
         imgSrc: "pbn.png",
-        imgAlt: "Katie Liu Worked On Paintball Nation's WordPress Theme"
+        imgAlt: "Katie Liu Worked On Paintball Nation's WordPress Theme",
+        colClass: "col-sm-10 mt-5 offset-md-1"
     },
     {
-        href: "https://tech-buy-git-master-kayleoss.vercel.app/",
-        title: "Tech Buy",
-        description: "An experimental site for US citizens to look for and snag the best tech deals from bestbuy. ",
-        imgSrc: "techbuy.png",
-        imgAlt: "Katie worked on Tech Buy"
+        href: "http://katieliu.ca/musicgame",
+        title: "Rhythm Burst",
+        description: "Rhythm Burst is a web game that analyzes sound frequencies to prompt you for keypresses at the right time. Coupled with a node.js express backend and real-time firebase data storage. Test your hand-eye coordination in this addictive game.",
+        imgSrc: "rhythmburst.gif",
+        imgAlt: "Rhythm burst image thumbnail of gameplay.",
+         colClass: "col-sm-8 m-t-l"
+    },
+    {
+        href: "https://meetingdevon.vercel.app/",
+        title: "Meeting Devon",
+        description: "Short visual novel RPG web game demo for itch.io players. Made with VueJS",
+        imgSrc: "covercensored.png",
+        imgAlt: "Meeting Devon cover image",
+        colClass: "col-sm-8 offset-md-4 m-t-l"
+    },
+    {
+        href: "https://github.com/kayleoss/tpsFrontEnd",
+        title: "ResoTPS",
+        description: "ResoTPS is a react native mobile app designed to help the Toronto police filter and automate requests and inquiries. It includes live chat with a police service specialist, situational tips and resources, automated forms for complaints, and more",
+        imgSrc: "hackTPS.png",
+        imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",
+        imgClass: " static-height-img",
+        colClass: "col-sm-8 mt-5 mb-5"
     }
 ];
 
@@ -68,16 +92,6 @@ export const webGamesData = [
     }
 ];
 
-export const webAppData = [
-    {
-        warningText: "Private internal application. Not demoable",
-        title: "Neshama Receipt Generator",
-        description: "Internal web app for Neshama Therapy to generate word document RMT and acupuncture receipts and automatically email them to patients and the therapist (NodeJS, Express, API). Please contact me directly for demo access.",
-        imgSrc: "receipt.png",
-        imgAlt: "Katie Liu Worked On A Project For Neshama Therapy"
-    }
-];
-
 export const mobileData = [
     {
         href: "https://github.com/kayleoss/tpsFrontEnd",
@@ -85,7 +99,7 @@ export const mobileData = [
         description: "ResoTPS is a react native mobile app designed to help the Toronto police filter and automate requests and inquiries. It includes live chat with a police service specialist, situational tips and resources, automated forms for complaints, and more",
         imgSrc: "hackTPS.png",
         imgAlt: "HackTPS mobile app preview, displaying various screens of the app, including online chat and categories.",
-        imgClass: "static-height-img"
+        imgClass: " static-height-img"
     }
 ]
 
