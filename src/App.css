@@ -1,3 +1,7 @@
+* {
+  margin:0;
+  padding:0;
+}
 body {
   width:100%;
   margin:0;
@@ -125,7 +129,7 @@ a.learn-more-img img {
   background: linear-gradient(to right,#b570ff, #5c04bb);
 }
 .light-shadow {
-  box-shadow: 2px 5px 45px rgb(170, 170, 170);
+  box-shadow: 2px 5px 45px rgb(31, 30, 30);
 }
 .project-button {
   background: rgb(197, 162, 231);
@@ -161,11 +165,12 @@ a.learn-more-img img {
   box-shadow: 0px 0px 25px #c7c7c7;
 }
 #projects {
+  margin-top: -1px;
   width:100%;
-  background: rgb(250, 247, 253);
-  background: url('./assets/projects.png');
+  transition: background-color 1s linear;
+  /* background: url('./assets/projects.png');
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 #footer, .projects-bg {
   background: url('./assets/footer.png');
@@ -205,6 +210,14 @@ a.legal-text:hover {
   color: rgba(253, 239, 253, 0.719);
   padding: 0 3%;
 }
+.slanted-border {
+  height: 100px;
+  border-top: 20px solid transparent;
+  border-left: 100vw solid transparent;
+  border-bottom: 100px solid #fbf7ff;
+  transition: border-bottom 1s linear;
+}
+
 @media(min-width: 1025px) {
   .m-t-l {
     margin-top: 5rem;
@@ -212,7 +225,7 @@ a.legal-text:hover {
   .help-card {
     background: white;
     border-radius: 25px;
-    box-shadow: 5px 5px 50px rgb(85, 72, 94);
+    box-shadow: 5px 5px 50px rgba(85, 72, 94, 0.445);
     margin-top: -100px;
   }
 }

@@ -19,7 +19,7 @@ export default class Websites extends React.Component{
                   })
                 }
               </div>
-              <p className="text-center mb-5">More projects available to view on <a href='https://github.com/kayleoss' target="_blank">github</a><br/> Check out my <a href='/blog'>blog</a></p>
+              <p className="text-center mb-5 text-light">More projects available to view on <a href='https://github.com/kayleoss' target="_blank">github</a><br/> Check out my <a href='/blog'>blog</a></p>
             </div>
         )
     }
